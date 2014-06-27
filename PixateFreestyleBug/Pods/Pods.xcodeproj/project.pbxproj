@@ -1,0 +1,1684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0048373A67184209986CC1F7 /* PXPseudoClassPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = E5964964CE0C4717AEC3FB1D /* PXPseudoClassPredicate.h */; };
+		012A596F12BC42F6A98D8752 /* PXUIProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB4C5F249A644A09F6E9002 /* PXUIProgressView.h */; };
+		016A33AB289047F183314AC8 /* PXStroke.h in Headers */ = {isa = PBXBuildFile; fileRef = 224FCC6098EB40B89D045190 /* PXStroke.h */; };
+		01EAC87C110D42A4AA438ACA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B7894794C04F96A305FCCE /* QuartzCore.framework */; };
+		0201B7048E404B38A45DE982 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6844AC17DB824F619C9DCA71 /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		0362216444F94495A8DAFB46 /* PXUITableViewHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2585A92123964B22B60461C4 /* PXUITableViewHeaderFooterView.h */; };
+		044D61A6C61E449B96F48B8D /* PXStylesheet-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C5FCD5B47684341907792FF /* PXStylesheet-Private.h */; };
+		0478D6A4D361468EA22FAE0D /* PXUILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B5775EEF6CBF4878B1B8AF9F /* PXUILabel.h */; };
+		047D1EA4904A4664AA56C194 /* PXUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = A96DB23C666E48D6AE22E91D /* PXUIView.h */; };
+		04851AC783D4482D8FC6DB55 /* PXStyleTreeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = EB8256A27C4C490A93886C1F /* PXStyleTreeInfo.h */; };
+		04EFA63CEBA5420A984FA4C2 /* NSArray+Reverse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6918149611B64EFF9F58A528 /* NSArray+Reverse.h */; };
+		05418395E0714104A2CE8B6F /* PXBarMetricsAdjustmentStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 016719447B0A4C70A62139EB /* PXBarMetricsAdjustmentStyler.h */; };
+		05E284E3388F45AA97A45908 /* PXAttributeSelectorOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 788AF4E776D64281BE3ABA05 /* PXAttributeSelectorOperator.h */; };
+		068F8FD7C4CD471D8D49AC5F /* PXMediaExpressionGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 51905495F4F74A5CA1E3ABF3 /* PXMediaExpressionGroup.h */; };
+		06BD9CECCC8746E3B7BB33E8 /* PXBoxShadowStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC575E0A26240F29B72F717 /* PXBoxShadowStyler.h */; };
+		06D93D0ED63E44E3A6FC3BB0 /* PXStylesheetParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 1835ED4AAE794CD0870F76A6 /* PXStylesheetParser.h */; };
+		091ECFCD8B7D4C6999E4353F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D591D2173F4B81B3A59AB2 /* UIKit.framework */; };
+		092A6F71C9C44C3397FAC6B6 /* PXShape.h in Headers */ = {isa = PBXBuildFile; fileRef = 77E944AAB8504141A7081374 /* PXShape.h */; };
+		0A0B681114834AEA8340B4A5 /* PXForceLoadCGCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 61AE576BA81A40DABB3B80A6 /* PXForceLoadCGCategories.h */; };
+		0BDF6F9067C74ED885009CC5 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C1C4A0822E39469CAD6E640E /* UIActivityIndicatorView+AFNetworking.h */; };
+		0C0AB70327274B37B3A10F75 /* PXValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 12BC08AE9DD7472084D5D5BA /* PXValue.h */; };
+		0E31E40B2E024E76AA9848DC /* PXWeakWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 39244ADEE3564F1F82551290 /* PXWeakWrapper.h */; };
+		0F9676DA33094C20AF1473D8 /* PXBarShadowStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = F0134B59F77C41E885531FAB /* PXBarShadowStyler.h */; };
+		0F9902562A744B529A490CC2 /* PXAnimationPropertyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = F12DC56C7ED04306BA42F849 /* PXAnimationPropertyHandler.h */; };
+		14715E14EEF84410B11AE23C /* PXTextShadowStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 472315F50F344BADBB184E31 /* PXTextShadowStyler.h */; };
+		15D12C724A504D37830B2F5A /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F9F61DD99CCC45DBBEA3A0E7 /* UIKit+AFNetworking.h */; };
+		174D62F374354FD696C58453 /* PXWordMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8676F7801C894329AEFAD51B /* PXWordMatcher.h */; };
+		1771AE03FEBB405AB437734D /* PXGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 291F7DE6CE274C2698BFA8B7 /* PXGradient.h */; };
+		18388404745B4B3BB445E20C /* PXUITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C24877C442474BAD6325DE /* PXUITextField.h */; };
+		19449E9406A6455CBB17D681 /* NSObject+PXStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A4D71AF4605482691FDDC06 /* NSObject+PXStyling.h */; };
+		19518D8F594248FC8E83C048 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EFD752A6E3A49A185FC439F /* UIImageView+AFNetworking.h */; };
+		1CADE14C12AB4640B0F44D01 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = D1472A6407BC42FDB8DE639F /* DDAbstractDatabaseLogger.h */; };
+		1ECF4CFF19F2446596154BA6 /* PXSourceEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5038AC9D80624425A8916A68 /* PXSourceEmitter.h */; };
+		1EEF4A1EF75C4306A424E271 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 456E95DD18F04897B29919B1 /* AFHTTPRequestOperationManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		205539DC949342F0AE0AAFA7 /* PXUIDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = A70528FB5987449CA512996E /* PXUIDatePicker.h */; };
+		205B8FB54F6441638CBDF10E /* PXFontRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C89177F15F54AB7B9362B65 /* PXFontRegistry.h */; };
+		2091A93DAD3340AC94AD0EF4 /* Version.h in Headers */ = {isa = PBXBuildFile; fileRef = 258343AC0C544E468CC6603D /* Version.h */; };
+		22B46CB72ADE46A5A10CF746 /* PXDescendantCombinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6D70493934403788DE543A /* PXDescendantCombinator.h */; };
+		23B5A720336449169412269C /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E7BF6B81BB84CC999F249F6 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		25E16D3FA41E43DE9C71DC4F /* PixateFreestyle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC86C50C4EE4E9D97826989 /* PixateFreestyle.framework */; };
+		28A8DF5AEA9540D5B26D237B /* PXNotificationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = D81233E69CDC4F38B265A88A /* PXNotificationInfo.h */; };
+		2A6B17B66B56470F9D1DD6FF /* PXStyleable.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC9E4A78AE14793B833839A /* PXStyleable.h */; };
+		2CFAC17F9B994D40854F7BBC /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1E1E3404644FFB91D51A3B /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		2D65EB8FD807404EB78EDE45 /* PXTypeSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A483C93DC341428CA96D7C /* PXTypeSelector.h */; };
+		2DD4319E4F164297AAFE38EE /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C2750591B473897660F91 /* AFHTTPSessionManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		2EFC94EE144E473EA97C1F78 /* PXSourceWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA6A79703874DD9B72C504A /* PXSourceWriter.h */; };
+		2F2998725D564C009561C0CC /* PXURLMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D8464BF1FE4A7D8E5A7FAB /* PXURLMatcher.h */; };
+		301492AFB2B64E24A5E0AFF8 /* PXVirtualControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 653EF63E6CB447C38FCEFAC8 /* PXVirtualControl.h */; };
+		30804EA86EF745659648E845 /* PXTitaniumMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 46DAB2AA49E4442D9024D04D /* PXTitaniumMacros.h */; };
+		31B54C193F0B4DFBB6661B1D /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = DB86810C623745E3808E5F8B /* DDASLLogger.h */; };
+		330C2E789BF9465597A5A044 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 566DBC98022C445AB93D1F00 /* UIButton+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		34AA7F99332F40E2961A2D76 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 460FFC98D9674B178B02E793 /* UIAlertView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		3512418D6A1D4AFBB9097FD2 /* UIBarItem+PXStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = B9F1130FB1AB4682B705B16D /* UIBarItem+PXStyling.h */; };
+		3605520DFF9F47ED80D93B96 /* PXStylesheetLexeme.h in Headers */ = {isa = PBXBuildFile; fileRef = 78AD43041DBD44C8B0E66A50 /* PXStylesheetLexeme.h */; };
+		36A09761639A4892B7BCE8DC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB047774BB3046A6ADBD9C58 /* Security.framework */; };
+		36A1E9A2A62E4F6BAD4273D5 /* PXLexemeCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ACD816551BE4B579B2A7B71 /* PXLexemeCreator.h */; };
+		36F80C818BDF49B2A0AB82A5 /* PXUISegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5C99A9497B4EAE980FCD18 /* PXUISegmentedControl.h */; };
+		39340C3C64A74545827F0306 /* PXCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA9447FEF70492F9224DC77 /* PXCircle.h */; };
+		3960D2893A3B41E2A03C16AA /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 380EDFA5654649CE8765DCA7 /* AFURLSessionManager.h */; };
+		3B21EB94E6AD41D78510E6F5 /* PXUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 465235F72B2145DA8762F10C /* PXUtils.h */; };
+		3B23DF91D7BB4824A8380766 /* PXCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 92742B47A50B4E04B815EFF2 /* PXCacheManager.h */; };
+		3E701B10A3D24672826F8967 /* PXUIPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 27645C183FE5457C8CF20268 /* PXUIPageControl.h */; };
+		3F1E93A26E934F069FF14601 /* PXMPVolumeView.h in Headers */ = {isa = PBXBuildFile; fileRef = AF78C73D565440609B1F7422 /* PXMPVolumeView.h */; };
+		3F23A0A5DC8347C48B47958C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DCBE9B828D42B094E884AB /* CoreGraphics.framework */; };
+		3F64EACC7E704C4D8E82F014 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = DFD6165772FA4A71BC4D377D /* DDLog.h */; };
+		3F6C51E0C9B845A6A082B54E /* PXUICollectionViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 37489AC0F3144AB0B91C11FD /* PXUICollectionViewDelegate.h */; };
+		403DB11E571E47C9898B872E /* PXAnimationInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B3984C811F46398637C741 /* PXAnimationInfo.h */; };
+		4074A65D0752443B93061FAF /* NSObject+PXSubclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 510426D90CC641A4B0A405C6 /* NSObject+PXSubclass.h */; };
+		41E5F63DF47349ABACAD6363 /* PixateFreestyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8168754222AF4639A38DE12D /* PixateFreestyle.h */; };
+		463AB933211C4A6089F24F01 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0DE0E6F6684992BD981B00 /* UIActivityIndicatorView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		4705E34BEAFD4700A97787C1 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 7584C0658E6A4BB4B7DCBB42 /* AFSecurityPolicy.h */; };
+		4894D43255384D20B6D71369 /* PXUITextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD1D63E78FB490987D4ED7D /* PXUITextView.h */; };
+		49840EE8DE3C40818D2E0B9C /* PXUITableViewCellContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = EAEBCAF13B72479CB985D728 /* PXUITableViewCellContentView.h */; };
+		4A1C72C241304AFDAEF65134 /* PXTransformParser.h in Headers */ = {isa = PBXBuildFile; fileRef = B33416F3B1B44B3E9C23E9F2 /* PXTransformParser.h */; };
+		4A902DB0349C41AAA2C30860 /* PXRectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = 987CE462DBFA402AB1CFA4F2 /* PXRectangle.h */; };
+		4D7A6C2D6D3049CAB026EF73 /* PXUIActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B1C8FFD7BA441CAE87A040 /* PXUIActivityIndicatorView.h */; };
+		4DFD51C227C84C49A0C3FD60 /* PXOpacityStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = FC82C3EC2BF44324BC071C20 /* PXOpacityStyler.h */; };
+		4E66A66D18A344FEA579D898 /* PXDimension.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EE4415779B4D6E874EF144 /* PXDimension.h */; };
+		4ED2E13B4F694DBA9CFC891D /* PXValueParser.h in Headers */ = {isa = PBXBuildFile; fileRef = CC90C71B536D4C7691248991 /* PXValueParser.h */; };
+		5073F595757F4243979344D2 /* PXStrokeStroke.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DDAB5F968E64812B393BE8B /* PXStrokeStroke.h */; };
+		50A919B01E5D45CE84C4A3E4 /* PXArc.h in Headers */ = {isa = PBXBuildFile; fileRef = 53798D00DFE64AD89B6353ED /* PXArc.h */; };
+		50CC2B541D0A48CAA44C766B /* PXBorderStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AE4CB45A9B4B3AAC8D5D71 /* PXBorderStyler.h */; };
+		51E679D430D84D578B8C3739 /* PXShadowGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4833E436B3B046008534B818 /* PXShadowGroup.h */; };
+		53D1241C9561435884BE9FAC /* PXUICollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FEBEB18D4E43D7BE783ED2 /* PXUICollectionViewCell.h */; };
+		5425DB228AC747B5AFFF9AC2 /* PXPseudoClassFunction.h in Headers */ = {isa = PBXBuildFile; fileRef = 585322D779B448CB9210891C /* PXPseudoClassFunction.h */; };
+		54BC51D755254FCAB299F335 /* PXUIWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFD1DE9A3154BC58D65270B /* PXUIWindow.h */; };
+		552A472DF7514888A35B211D /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C50C9C0CCB4357A4DDC290 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		55BADB7365FA4A4AB58A0416 /* PXBoxModel.h in Headers */ = {isa = PBXBuildFile; fileRef = C5F420C70D4746ADB4F1AE2D /* PXBoxModel.h */; };
+		55FFB4924337418FA03CAF98 /* PXUISwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 40B8306E179C48FE9FF75CB8 /* PXUISwitch.h */; };
+		5600B8AD4DED49C08F14CEF2 /* PXGenericStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 750DC48E19DF4EF481233617 /* PXGenericStyler.h */; };
+		56FC4D3E967F432FA1228640 /* PXShapeStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D3D69DA90048779A66C5F4 /* PXShapeStyler.h */; };
+		57C3BAB7DA4C4575B7252A9B /* PXMKAnnotationContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8888595EDAF54A46B850A0FB /* PXMKAnnotationContainerView.h */; };
+		5836C11551214EDC82597DE1 /* PXPseudoClassSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C055C7777D4C46988B9F1D /* PXPseudoClassSelector.h */; };
+		59C279B6872E44AF8141AF8D /* NSDictionary+PXObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2336AF76B16449C28C818D06 /* NSDictionary+PXObject.h */; };
+		5A5F0202DB394FBAA03DC656 /* PXNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B56A5A47664128A65AA0C7 /* PXNotificationManager.h */; };
+		5ABDA3C3D1B14C40A48A2A92 /* PXStylesheetLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B85523D1964E2889CB72E5 /* PXStylesheetLexer.h */; };
+		5AEB6C0B1FF545E091DC0E3F /* objc.h in Headers */ = {isa = PBXBuildFile; fileRef = F261C4024F324949B37239D1 /* objc.h */; };
+		5EDDF3F5F7114570BEB4EE5E /* NSObject+PXClass.h in Headers */ = {isa = PBXBuildFile; fileRef = F56EB09564AE462991F06CF0 /* NSObject+PXClass.h */; };
+		61B5F10AB46E47D1A6B07705 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 455369CEF8544C72BA5DC8EC /* DDTTYLogger.h */; };
+		635FA5BABA5A432DBDFCE545 /* PXTransformLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 507A2959031C4E2D9EDEBE85 /* PXTransformLexer.h */; };
+		643548F360BA456887CD66AF /* PXBoundable.h in Headers */ = {isa = PBXBuildFile; fileRef = E81F31D34D6A44FAADC36D4D /* PXBoundable.h */; };
+		643B933D4A91429E843CF084 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9D020FD2864F49A4501D93 /* UIWebView+AFNetworking.h */; };
+		64DB8BCFD3DB4633B675C751 /* PXFontEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = B355DDA6CCD647FFA43840AD /* PXFontEntry.h */; };
+		64DBEFCB08FF48CFAABA4C72 /* PXKeyframe.h in Headers */ = {isa = PBXBuildFile; fileRef = 3679EA532C324A63BE8FE07A /* PXKeyframe.h */; };
+		64EEE87BE2CA470ABB5D1F53 /* PXUIStepper.h in Headers */ = {isa = PBXBuildFile; fileRef = F3B4D661B2BF406A963B2038 /* PXUIStepper.h */; };
+		653C0E7E992549BC92D028E0 /* PXUIToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 708845A2E96D430388C84C58 /* PXUIToolbar.h */; };
+		65776340A65443358FD3379D /* PXFontInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B9ED849D4F654F859A89AB49 /* PXFontInfo.h */; };
+		6703CB708B4B4D7287FD54B8 /* Pods-PixateFreestyleBug-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4AE67AEAD642BF8D704B8F /* Pods-PixateFreestyleBug-dummy.m */; };
+		6AE7D30663494AE2B3F9AC8F /* PXBorderInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 32856C964BBC4348B4CDD93A /* PXBorderInfo.h */; };
+		6C9CAEC656924AA6BC2DBCC2 /* PXStylesheetTokenType.h in Headers */ = {isa = PBXBuildFile; fileRef = C6515C7C3C5F4283B7E9F9CA /* PXStylesheetTokenType.h */; };
+		6D8FB6F37DF8493EB24EC1D4 /* PXKeyframeBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 55EA2771944B4B2FB00060EC /* PXKeyframeBlock.h */; };
+		6E5C7981560A407DA0BA1CA2 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 25F3F963C6874CE0BE7A88AA /* UIButton+AFNetworking.h */; };
+		6F80C9939B0B4E03A94C920E /* PXViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 741123D84BD14A7393BBBA9E /* PXViewUtils.h */; };
+		6FEB4784FF04484281C98B15 /* PXUISearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DF76E64282C40068283CF8B /* PXUISearchBar.h */; };
+		6FF655780DF843B2A0883C50 /* PXUISlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 380D7A339E8247FB95620B8A /* PXUISlider.h */; };
+		70EB6093F9EC4B2AA25DFF95 /* Pods-PixateFreestyleBug-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE8CECB3EAD4A0C99402219 /* Pods-PixateFreestyleBug-AFNetworking-dummy.m */; };
+		71C6F146EA73414CA5373AC4 /* UIView+PXStyling-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F61CA8085F7459DBFDC586C /* UIView+PXStyling-Private.h */; };
+		72A26BC1CCB5487FAD336D31 /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 998D3C0948D24E5C8061C2BA /* DDFileLogger.h */; };
+		73AB603B612E4A8CBA599AC2 /* PXPatternMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = BE5FA4943885496CBD0DF414 /* PXPatternMatcher.h */; };
+		73FDD5490F764B19A62E700E /* PXAdjacentSiblingCombinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D191A6670A45C5BA4BB824 /* PXAdjacentSiblingCombinator.h */; };
+		7580B418899849CF87827AB2 /* PXMKMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D20AB5F45C429796B30ABC /* PXMKMapView.h */; };
+		765B013827A9444FB1AF2B1A /* PXInsetStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E96598E3C745CE8AE29423 /* PXInsetStyler.h */; };
+		7A03731CA5554F87927E52DF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 71567EB5185F402C97E15A1F /* AFURLRequestSerialization.h */; };
+		7DEA25A160074460B5A5EFBA /* NSMutableArray+StackAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C824615C25148419FB341BF /* NSMutableArray+StackAdditions.h */; };
+		7EB4A3AEB0324F4D98CD9FB9 /* PXPaint.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AEAAC98E904CFFB11B0B65 /* PXPaint.h */; };
+		7EEB9F5DBC67490695E4938A /* PXUIScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 540CE4DD8F424CD7BF96CCF1 /* PXUIScrollView.h */; };
+		7F31D579EDA541F6A7093456 /* PXStylerBase.h in Headers */ = {isa = PBXBuildFile; fileRef = D6B7FDC3A584408A9303880F /* PXStylerBase.h */; };
+		80BEF900815D4BDBBA6CF27C /* PXUIImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = C8BEE81F12154BCE9634583D /* PXUIImageView.h */; };
+		818AD901A5784CBBA54A84B0 /* PXTransformTokenType.h in Headers */ = {isa = PBXBuildFile; fileRef = 2628D22D3FB747F6B6A5C21F /* PXTransformTokenType.h */; };
+		81DC6DEA85DA423AB6085FDD /* PXDeclarationContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8400A54B2A48C287573A43 /* PXDeclarationContainer.h */; };
+		829FC281171246249F56E6B7 /* PXFileFunctionLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = E8D1D414018E461585429069 /* PXFileFunctionLogFormatter.h */; };
+		83164F2B0487458AA3841E4D /* PXRuntimeUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E9BEF428CB4D04BC3EFAAD /* PXRuntimeUtils.h */; };
+		851172A0EAC04E15B90D6D1A /* PXColorStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 8967F5C9D26F47D1A0D18F14 /* PXColorStyler.h */; };
+		8514604FED494D8EA59BFA02 /* PXMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 7AB38E0AEAC74F3FBECDD332 /* PXMath.h */; };
+		85FA40055D684136AAFBB8CE /* PXShadowPaint.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C65EFEB37C4D73B9FB7869 /* PXShadowPaint.h */; };
+		862F94118207475380E9EDBA /* PixateFreestyleConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = AE937131D2B94CFCA0D742ED /* PixateFreestyleConfiguration.h */; };
+		88CC9CE865A14D1B95924F84 /* PXSpecificity.h in Headers */ = {isa = PBXBuildFile; fileRef = 58CBBE9F6DCC4A2F912BDA3F /* PXSpecificity.h */; };
+		892A85F958654917AF49D9E5 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F14308395F450DAD5C027D /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		8AAFA22357B14B2E8997691D /* libPods-PixateFreestyleBug-AFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A58C88FD8BF4B75B1AA4D8A /* libPods-PixateFreestyleBug-AFNetworking.a */; };
+		8ACF52FEF3FE4A298DF3BBFF /* PXUITableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 81D494A7F43F4CE689998E1F /* PXUITableView.h */; };
+		8B0A389B3CBE44E4ACAA122F /* PXUITabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F556D56221264FB187E9D05D /* PXUITabBar.h */; };
+		8B8D6E98018749CC912CD245 /* PXLine.h in Headers */ = {isa = PBXBuildFile; fileRef = CF67C5A253FA4AA38DB5081C /* PXLine.h */; };
+		8C63E770DD5D4EB7B20C1096 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF150ED0DD44BBEAEAF2286 /* AFNetworkReachabilityManager.h */; };
+		8CF03A550C044D09AD273E5D /* PXChildCombinator.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC8CD935EF440BE8DFDCDEA /* PXChildCombinator.h */; };
+		8D937D8207FD4A6BBA8B4049 /* PXGestalt.h in Headers */ = {isa = PBXBuildFile; fileRef = DC10B404981A4021AA1F6CD8 /* PXGestalt.h */; };
+		8F06BD8DD9824FFD86BBFC6C /* PXUIPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9079AA8908C9482AB735BA83 /* PXUIPickerView.h */; };
+		91A8198C58734D1FA6E9179D /* PXPie.h in Headers */ = {isa = PBXBuildFile; fileRef = BAF98B15ECFE4E169B032083 /* PXPie.h */; };
+		91BA8D555CD94B57ACAFF5E1 /* PXRenderable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E50C008574A4A6F80CE46F2 /* PXRenderable.h */; };
+		91F0E593735C4CFFB35CFCB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9154944ACC1A44809E8EC7CC /* Foundation.framework */; };
+		9208403D068B4F688E8362E3 /* PXPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA74D2CD1754B028159AF21 /* PXPolygon.h */; };
+		92BDD66EA83A485EABF87C43 /* PXShapeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2532B8D21D4EBC8E5DBDD4 /* PXShapeView.h */; };
+		94F52F19493441C6A76FDA86 /* PixateFreestyle-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = BC21F73DC15E4F11920E6ED8 /* PixateFreestyle-Private.h */; };
+		952012A1CF8749979628B089 /* PXProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = F4DC8A5F5CD14C19BE7E2BBD /* PXProxy.h */; };
+		97EB04B15DC94CFB802B386F /* PXNonScalingStroke.h in Headers */ = {isa = PBXBuildFile; fileRef = 5199830A14C647149BA1240C /* PXNonScalingStroke.h */; };
+		987454A58090497789BEFDA3 /* PXForceLoadControls.h in Headers */ = {isa = PBXBuildFile; fileRef = 0966EA09BEB14AB49F6456C5 /* PXForceLoadControls.h */; };
+		99EF47AB88334798A48C7E0D /* PXImageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BE54B9C2A94507A3ED21AB /* PXImageUtils.h */; };
+		9A916F4FEBF440238CADD892 /* PXLayoutStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = B576D2BA1BDF4E92B7FBCF2B /* PXLayoutStyler.h */; };
+		9C45F051777F47C0899353E3 /* PXFileUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0415586F125C43118D08C692 /* PXFileUtils.h */; };
+		9C62FB538A5C4948A6519C19 /* PXStylesheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BD4BD576384708911D4EBC /* PXStylesheet.h */; };
+		9D387719166D4A33A13D00EF /* UIView+PXStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 2939AC6743964A5599A99729 /* UIView+PXStyling.h */; };
+		9EAFEF4B61BA404F8D11C443 /* PXGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C58ABCD2144DF18AD5532B /* PXGraphics.h */; };
+		A103FBF7F2FA45E394FD6921 /* PXUITableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 136DC48D9A8A4516875FCFFC /* PXUITableViewCell.h */; };
+		A2F19F85990744AD8903AECA /* PXStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 611071DBA5B24EC599826A74 /* PXStyler.h */; };
+		A61826FF93734FAD8080F7BE /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 36BF4CEBE8274D219311E561 /* AFURLResponseSerialization.h */; };
+		A80EE7F74EDE4B0EA3654998 /* UIBarButtonItem+PXStyling-Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 1330DE49DEC74D1D8DB238E4 /* UIBarButtonItem+PXStyling-Private.h */; };
+		A8E897131B3F42DEBAD00EDF /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DB3C7635DAAC4685B042C3B3 /* UIAlertView+AFNetworking.h */; };
+		A9058D7C9DE04EF8BBBC6268 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF991766F424C46A5003C8A /* UIRefreshControl+AFNetworking.h */; };
+		AAAE253DFE994240B5B5BF66 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 268C37C067CF4C6FA1836633 /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		AAEC6180279343C097E709E9 /* PXVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 74657963C4BC41A0BCA034DA /* PXVector.h */; };
+		ABF66CE83C244964BF00D175 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FB763FAB3F401B9FC6D201 /* UIWebView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		AD5610B892044FF3BE1F567A /* PXStrokeRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2667C8CC207A4D77983C6D21 /* PXStrokeRenderer.h */; };
+		AD827F1324E44992A809D260 /* PXPaintStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF33805380047289116FAC7 /* PXPaintStyler.h */; };
+		ADA714A99FE448DAA2B5EF5F /* PXRadialGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = FE92CBC4BBF24AF19282F871 /* PXRadialGradient.h */; };
+		AF95550BD0BC4D7FB982F17A /* PXCombinatorBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 78FA2DE85E0F482CB84CA688 /* PXCombinatorBase.h */; };
+		B060E33DFD884DBA8D989522 /* PXStylerContext.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5D896CBD8145BCABE65227 /* PXStylerContext.h */; };
+		B07FFFFCBC174BD9A88D3AD7 /* PXMediaExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = BF140DA743D34421801441CC /* PXMediaExpression.h */; };
+		B3B339111A644E0F8180DF15 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D28E1CC780C49399D8A9139 /* AFHTTPRequestOperationManager.h */; };
+		B4A18C6E241B4E24BFF0CB3A /* PXPath.h in Headers */ = {isa = PBXBuildFile; fileRef = A365AC4D909C47858E96E1F1 /* PXPath.h */; };
+		B4D72B45F65946EB8B15CBC0 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D5BA94927A443EDB99FF2CF /* CoreText.framework */; };
+		B62B59265C1F4DA0AD8382EE /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF005F587064687BCE6CDB5 /* AFURLConnectionOperation.h */; };
+		B6BC3B6945A44138A9C3A607 /* PXNumberMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F29230A4E36840B0B2899D4B /* PXNumberMatcher.h */; };
+		B7417530D7EE4D13A876B2EA /* PXLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 423548D0A73D4E32985667AA /* PXLog.h */; };
+		B8BBB13B963D4536B97495B8 /* PXNotPseudoClass.h in Headers */ = {isa = PBXBuildFile; fileRef = CB0A8D37410D4663AB105C34 /* PXNotPseudoClass.h */; };
+		B8BC4B978ED641828FBF0556 /* PXAttributedTextStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C93402D6D1E4F6295DF48EB /* PXAttributedTextStyler.h */; };
+		B921F8A99D6548ECB0969B95 /* PXMKAnnotationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D904A941F58423DAB8C4FAD /* PXMKAnnotationView.h */; };
+		BA6DC9C48E264A31B7175D34 /* PXKeyframeAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 623325887DC34199BCB5766D /* PXKeyframeAnimation.h */; };
+		BBBF9F7A059B43E9ACC81358 /* PXAttributeSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = E0372A7521A846088CDC6881 /* PXAttributeSelector.h */; };
+		BC02AD52EF4A413780504DBB /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 034E3B6668A447689CDF64AA /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		BD74C92E304B4B178020FEA8 /* PXSVGLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = C1ED47E301C6464B98A99CB6 /* PXSVGLoader.h */; };
+		BDBB3633584945F08905A227 /* PXEllipse.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCA77A38A6F41C3A6EE1FCC /* PXEllipse.h */; };
+		BEE0962CC84E4BD9B7E2DC36 /* UINavigationItem+PXStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EF4F6FF2CB446B9AA0C7F23 /* UINavigationItem+PXStyling.h */; };
+		BFC9961608174F6EA423B1BB /* PXCharacterMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D06C2E2AA5844AC81217368 /* PXCharacterMatcher.h */; };
+		BFCC9CA9A81F42419A45707D /* PXStyleUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E50908ECBA5242348917461B /* PXStyleUtils.h */; };
+		BFE329DCDB1D40DD9DFFA9F6 /* PXShadow.h in Headers */ = {isa = PBXBuildFile; fileRef = EB87E46B007C4664A011112B /* PXShadow.h */; };
+		C0633D144A5941EC9B952E49 /* libPods-PixateFreestyleBug-PixateFreestyle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAD10F743274730B7BD21DC /* libPods-PixateFreestyleBug-PixateFreestyle.a */; };
+		C0968E3A424D4E90AA3D61C6 /* PXForceLoadStylingCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = A404B25C2C6D458F872857A5 /* PXForceLoadStylingCategories.h */; };
+		C2192589F3204347ADA49659 /* PXTransitionStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE5988BAA014B6E91B23A1E /* PXTransitionStyler.h */; };
+		C2568BD2F5D048428F65B813 /* UIColor+PXColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 482C9FCCA6054155BBE3FC47 /* UIColor+PXColors.h */; };
+		C59C255D510C431BB6398B24 /* PXUIRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BB68620EFA9472B872FA50F /* PXUIRefreshControl.h */; };
+		C5B4BB9E75494A0D8B4992E7 /* PXNamedMediaExpression.h in Headers */ = {isa = PBXBuildFile; fileRef = F290B3A2EAAD4EADA1F6FCAC /* PXNamedMediaExpression.h */; };
+		C5C2057A2C6A488DBEE620E4 /* PXSiblingCombinator.h in Headers */ = {isa = PBXBuildFile; fileRef = ABADDEF3519148D893DF6284 /* PXSiblingCombinator.h */; };
+		C5FF6F8403F44A358DDADE44 /* PXDelegateLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = AAC87400FB9348F69E026798 /* PXDelegateLogger.h */; };
+		C63FCE8F1A734B449A667C1C /* PXUINavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CF735DB0E6E342D8B20C83E0 /* PXUINavigationBar.h */; };
+		C695B8A4160E44179859B150 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9154944ACC1A44809E8EC7CC /* Foundation.framework */; };
+		C997DBE2586F4822B13E4219 /* PXTransitionRuleSetInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0964F9CB3D9946F3B77D6C0A /* PXTransitionRuleSetInfo.h */; };
+		C9CDFCEBA56643C59C09C0F4 /* PXUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 80165EBACA8A4DC0A8FC3F23 /* PXUIButton.h */; };
+		CA2AE60D15F34C6F928F5DC9 /* NSDictionary+PXCSSEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 1217A9B057EA48E38B806C72 /* NSDictionary+PXCSSEncoding.h */; };
+		CA4F2F5131A34175A19E7481 /* PXCombinator.h in Headers */ = {isa = PBXBuildFile; fileRef = 30084FB6D84C4D3BB40DC0CF /* PXCombinator.h */; };
+		CBD216CC9FC749808C1F7BF4 /* PXStrokeGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = B0181D70A7B449EFA0A1EB14 /* PXStrokeGroup.h */; };
+		CC4A661EA0794E1F8720F4A4 /* PXEllipticalArc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E54C40D651E48BDA68423C5 /* PXEllipticalArc.h */; };
+		CC561296C21D4DC6BFD98413 /* PXUICollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B030530B7CB48B3B4BD8CDF /* PXUICollectionView.h */; };
+		CD2E236DC38B4C5886016EA9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB9777751A3466592F6C252 /* MobileCoreServices.framework */; };
+		CDA744A52EF343A8818C831A /* PXShapeGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = DB0D0BC3964E4BA0AA3B8F71 /* PXShapeGroup.h */; };
+		CDD8BFCD5E644591A38E8876 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 826B1A26C9F14E4385997F03 /* AFHTTPSessionManager.h */; };
+		CE240C4033E7427D9C498ACA /* PXShapeDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = D1B1A6A2642040279413CC0B /* PXShapeDocument.h */; };
+		CE8AADCFAD95440AAB7628DF /* PXMediaGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ACAD07C5D9D41CFACB4FCB4 /* PXMediaGroup.h */; };
+		CEEE626AE7134416B551C474 /* PXMacrosCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DD7F0CFF19D4FDF83365121 /* PXMacrosCommon.h */; };
+		CF7DFFB6EA7D47678B3875EA /* PXUIPickerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9C3C6061634C878DC5ADA7 /* PXUIPickerViewDelegate.h */; };
+		CFAF52F5D42A4FFD8BEEAB1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9154944ACC1A44809E8EC7CC /* Foundation.framework */; };
+		D31604FBF6C748A98DD3115A /* PXFillStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D555FEA42744265A25A0F57 /* PXFillStyler.h */; };
+		D476FA4CCDF64D4EA1B92B11 /* PXSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FF991E939E94AA0897F2019 /* PXSelector.h */; };
+		D4CCA331B9D1421D98682B92 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3F2484C6A4EDFA42981E9 /* AFURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		D6C3AFD6EF5449E980B3D2AD /* NSScanner+PXFloat.h in Headers */ = {isa = PBXBuildFile; fileRef = E68F655294C84404B15AB377 /* NSScanner+PXFloat.h */; };
+		D7ABA88EDFA341E896BBBF5F /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 77430BC748304E06BEFC3681 /* AFNetworkActivityIndicatorManager.h */; };
+		D84AA8C92DAE4FC8ACA4E501 /* PXFileWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FFDB17BB81247878383A82B /* PXFileWatcher.h */; };
+		D8E4C1EB25D3433D85D7A5F9 /* UITabBarItem+PXStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = 540DF2C294F34C88AFED15FB /* UITabBarItem+PXStyling.h */; };
+		DA54F6CA30F446B1BD1A5C2B /* PXLinearGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = A359F5EF4DF346A8A357ED77 /* PXLinearGradient.h */; };
+		DA9A6466926F4F46832EA511 /* PXUIActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = D69AD3FB06EF442CB0FD5997 /* PXUIActionSheet.h */; };
+		DCF771EDC4414348A6EC6E6A /* UIBarButtonItem+PXStyling.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BB634E759140EA97C46003 /* UIBarButtonItem+PXStyling.h */; };
+		E086FA7796FC4B29971F8E99 /* NSMutableDictionary+PXObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 948DCC8777CD41379AC27C9C /* NSMutableDictionary+PXObject.h */; };
+		E0A6F4DD8BF44F488FD8C651 /* PXImagePaint.h in Headers */ = {isa = PBXBuildFile; fileRef = 540DF57AF4544C079267DCC9 /* PXImagePaint.h */; };
+		E2256CC0923443C7AD528337 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 07057B40688E445185BFF921 /* AFHTTPRequestOperation.h */; };
+		E31A954933E347ED87C983BB /* PXClassUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A58A0D8ADAE84423A1227583 /* PXClassUtils.h */; };
+		E335F17DA06C462899B96088 /* PXOffsets.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5C935441674013A23521BF /* PXOffsets.h */; };
+		E38A08A262D14A0B9EE5E8A2 /* PXIdSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = F3DD5030B8154D1FADA16F48 /* PXIdSelector.h */; };
+		E4299410627F4C339AA02F27 /* PXFontStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A6F2053EC84EA293583BE6 /* PXFontStyler.h */; };
+		E74C757F0781415EAE59B456 /* Pods-PixateFreestyleBug-PixateFreestyle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2EECCD06D704CB1A14FB052 /* Pods-PixateFreestyleBug-PixateFreestyle-dummy.m */; };
+		E7EDCFE4746E4D5DA1B3B670 /* PXForceLoadPixateCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 392676CC738F485285929D15 /* PXForceLoadPixateCategories.h */; };
+		E857F2427B5A4C559C836AC0 /* PXStyleInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B1221B32019D428F8731336E /* PXStyleInfo.h */; };
+		E89FF95AE721448CBE19CF3F /* PXTransformStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D2074FEB7745599BE409C7 /* PXTransformStyler.h */; };
+		EB2385199E8344A39AE21347 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 536C44E40E544D32A8E67D63 /* UIProgressView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		EB61B34F73FE4073853774D4 /* PXText.h in Headers */ = {isa = PBXBuildFile; fileRef = E4658B84D27E417697C12676 /* PXText.h */; };
+		EBE2259D8860477FABA28555 /* PXVirtualStyleableControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 1757821E6A53461A9E90313C /* PXVirtualStyleableControl.h */; };
+		EC3E4C95339042F0BE4C09B3 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 80294D5270964369A56ABA44 /* UIProgressView+AFNetworking.h */; };
+		ECF382E1FA2D437AA47F5BD3 /* PXLoggingUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F67B5C1EF86E4FBF90D730AD /* PXLoggingUtils.h */; };
+		EDD3B8352EB24CFF9724D5F7 /* PXAnimationStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = 87466EA26EC24676B9190559 /* PXAnimationStyler.h */; };
+		EE6FC30AFAF24730B5F8BE7B /* NSMutableArray+QueueAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 640C6EFB20114227B3C1AE4C /* NSMutableArray+QueueAdditions.h */; };
+		EFAAB6898A684774B3718A54 /* PXTextContentStyler.h in Headers */ = {isa = PBXBuildFile; fileRef = F8CCD50A47364C68BB1032EE /* PXTextContentStyler.h */; };
+		F0179AFA4AE842ACBDDE1A22 /* PXSolidPaint.h in Headers */ = {isa = PBXBuildFile; fileRef = D12341C39AAF46009D609B6F /* PXSolidPaint.h */; };
+		F0B749B8EADD47CB9CEE799C /* PXArrowRectangle.h in Headers */ = {isa = PBXBuildFile; fileRef = ADAFDA4AF30349BDA4359195 /* PXArrowRectangle.h */; };
+		F1008304F9174436A602B6FE /* PXStylingMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F5411524F7B48DC81E387CA /* PXStylingMacros.h */; };
+		F269875DAC2A4E3E967AB497 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4AC99101B64942BCB22677 /* SystemConfiguration.framework */; };
+		F3C04814FBD443228707EA92 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3351FFDDC14E0B8D0CAE83 /* AFURLSessionManager.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		F49315EF8CB44BD18FFF20DD /* PXUILayoutContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = E61E5C3B191F42FB8BE82DB0 /* PXUILayoutContainerView.h */; };
+		F4C09967474042CDAFAF25A8 /* PXPaintable.h in Headers */ = {isa = PBXBuildFile; fileRef = F807B4B8AC4C4258B1BABDB8 /* PXPaintable.h */; };
+		F659D45903F94998A8E245EE /* PXClassSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F5F6B6EE1A04E2D9FAF34E2 /* PXClassSelector.h */; };
+		FA2DCDA71C9E40C789E9D38C /* PXRuleSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EBCFCFE5C38422BBCA63E28 /* PXRuleSet.h */; };
+		FA2FE602E92946E5A4DB7C02 /* PXDeclaration.h in Headers */ = {isa = PBXBuildFile; fileRef = D1F76D29F45B4D178BD28538 /* PXDeclaration.h */; };
+		FB4AC5EFDBCF4870A18B8C1A /* PXPaintGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = D5DA305EEAD84E6E825424FB /* PXPaintGroup.h */; };
+		FB68FEB6F3FF418FABB65766 /* PXUITableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F7BAE1A221543688B6AD12C /* PXUITableViewDelegate.h */; };
+		FC0991272A064E0CB35F6DBF /* PXUIWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = F9D8B9BC1F6B4D9AA46BE614 /* PXUIWebView.h */; };
+		FEED76F64B0549B09268525C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1DCBE9B828D42B094E884AB /* CoreGraphics.framework */; };
+		FF0FC43490DA417BBA7534A8 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2452CC650C2C4027A7383800 /* UIRefreshControl+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		FF8CCCFA138B40ECA6DD2BF0 /* PXForceLoadVirtualCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 1126DA4FACEB4019AE294FB6 /* PXForceLoadVirtualCategories.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FFEE6DEDB65470B86E257AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4961036F9974F2AA6AE8033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A976723D7A843CC87C83FDE;
+			remoteInfo = "Pods-PixateFreestyleBug-AFNetworking";
+		};
+		BA83629F72854F9892A6DDD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4961036F9974F2AA6AE8033 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FEC9E60DB8C4DC5A06145D9;
+			remoteInfo = "Pods-PixateFreestyleBug-PixateFreestyle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016719447B0A4C70A62139EB /* PXBarMetricsAdjustmentStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBarMetricsAdjustmentStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBarMetricsAdjustmentStyler.h; sourceTree = "<group>"; };
+		034E3B6668A447689CDF64AA /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		0415586F125C43118D08C692 /* PXFileUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFileUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFileUtils.h; sourceTree = "<group>"; };
+		0599E05923D44F478007D13B /* Pods-PixateFreestyleBug-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PixateFreestyleBug-acknowledgements.plist"; sourceTree = "<group>"; };
+		07057B40688E445185BFF921 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		07B1C8FFD7BA441CAE87A040 /* PXUIActivityIndicatorView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIActivityIndicatorView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIActivityIndicatorView.h; sourceTree = "<group>"; };
+		08E9BEF428CB4D04BC3EFAAD /* PXRuntimeUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXRuntimeUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXRuntimeUtils.h; sourceTree = "<group>"; };
+		0964F9CB3D9946F3B77D6C0A /* PXTransitionRuleSetInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTransitionRuleSetInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTransitionRuleSetInfo.h; sourceTree = "<group>"; };
+		0966EA09BEB14AB49F6456C5 /* PXForceLoadControls.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXForceLoadControls.h; path = PixateFreestyle.framework/Versions/A/Headers/PXForceLoadControls.h; sourceTree = "<group>"; };
+		0D5BA94927A443EDB99FF2CF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		0E54C40D651E48BDA68423C5 /* PXEllipticalArc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXEllipticalArc.h; path = PixateFreestyle.framework/Versions/A/Headers/PXEllipticalArc.h; sourceTree = "<group>"; };
+		0EB9777751A3466592F6C252 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		0FFDB17BB81247878383A82B /* PXFileWatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFileWatcher.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFileWatcher.h; sourceTree = "<group>"; };
+		1126DA4FACEB4019AE294FB6 /* PXForceLoadVirtualCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXForceLoadVirtualCategories.h; path = PixateFreestyle.framework/Versions/A/Headers/PXForceLoadVirtualCategories.h; sourceTree = "<group>"; };
+		1217A9B057EA48E38B806C72 /* NSDictionary+PXCSSEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+PXCSSEncoding.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSDictionary+PXCSSEncoding.h"; sourceTree = "<group>"; };
+		12BC08AE9DD7472084D5D5BA /* PXValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXValue.h; path = PixateFreestyle.framework/Versions/A/Headers/PXValue.h; sourceTree = "<group>"; };
+		1330DE49DEC74D1D8DB238E4 /* UIBarButtonItem+PXStyling-Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+PXStyling-Private.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UIBarButtonItem+PXStyling-Private.h"; sourceTree = "<group>"; };
+		136DC48D9A8A4516875FCFFC /* PXUITableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITableViewCell.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITableViewCell.h; sourceTree = "<group>"; };
+		1757821E6A53461A9E90313C /* PXVirtualStyleableControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXVirtualStyleableControl.h; path = PixateFreestyle.framework/Versions/A/Headers/PXVirtualStyleableControl.h; sourceTree = "<group>"; };
+		1835ED4AAE794CD0870F76A6 /* PXStylesheetParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylesheetParser.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylesheetParser.h; sourceTree = "<group>"; };
+		1A3351FFDDC14E0B8D0CAE83 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		1ACD816551BE4B579B2A7B71 /* PXLexemeCreator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXLexemeCreator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXLexemeCreator.h; sourceTree = "<group>"; };
+		1D8400A54B2A48C287573A43 /* PXDeclarationContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXDeclarationContainer.h; path = PixateFreestyle.framework/Versions/A/Headers/PXDeclarationContainer.h; sourceTree = "<group>"; };
+		1F61CA8085F7459DBFDC586C /* UIView+PXStyling-Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PXStyling-Private.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UIView+PXStyling-Private.h"; sourceTree = "<group>"; };
+		1FEB183F78134FEE870407F6 /* Pods-PixateFreestyleBug-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PixateFreestyleBug-resources.sh"; sourceTree = "<group>"; };
+		224FCC6098EB40B89D045190 /* PXStroke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStroke.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStroke.h; sourceTree = "<group>"; };
+		2336AF76B16449C28C818D06 /* NSDictionary+PXObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+PXObject.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSDictionary+PXObject.h"; sourceTree = "<group>"; };
+		23B56A5A47664128A65AA0C7 /* PXNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXNotificationManager.h; path = PixateFreestyle.framework/Versions/A/Headers/PXNotificationManager.h; sourceTree = "<group>"; };
+		2452CC650C2C4027A7383800 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		258343AC0C544E468CC6603D /* Version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Version.h; path = PixateFreestyle.framework/Versions/A/Headers/Version.h; sourceTree = "<group>"; };
+		2585A92123964B22B60461C4 /* PXUITableViewHeaderFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITableViewHeaderFooterView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		25F3F963C6874CE0BE7A88AA /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		2628D22D3FB747F6B6A5C21F /* PXTransformTokenType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTransformTokenType.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTransformTokenType.h; sourceTree = "<group>"; };
+		2667C8CC207A4D77983C6D21 /* PXStrokeRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStrokeRenderer.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStrokeRenderer.h; sourceTree = "<group>"; };
+		268C37C067CF4C6FA1836633 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		27645C183FE5457C8CF20268 /* PXUIPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIPageControl.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIPageControl.h; sourceTree = "<group>"; };
+		291F7DE6CE274C2698BFA8B7 /* PXGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXGradient.h; path = PixateFreestyle.framework/Versions/A/Headers/PXGradient.h; sourceTree = "<group>"; };
+		2939AC6743964A5599A99729 /* UIView+PXStyling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PXStyling.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UIView+PXStyling.h"; sourceTree = "<group>"; };
+		2A9D020FD2864F49A4501D93 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		2AF991766F424C46A5003C8A /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		2D06C2E2AA5844AC81217368 /* PXCharacterMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXCharacterMatcher.h; path = PixateFreestyle.framework/Versions/A/Headers/PXCharacterMatcher.h; sourceTree = "<group>"; };
+		2E7BF6B81BB84CC999F249F6 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		30084FB6D84C4D3BB40DC0CF /* PXCombinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXCombinator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXCombinator.h; sourceTree = "<group>"; };
+		32856C964BBC4348B4CDD93A /* PXBorderInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBorderInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBorderInfo.h; sourceTree = "<group>"; };
+		32BD4BD576384708911D4EBC /* PXStylesheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylesheet.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylesheet.h; sourceTree = "<group>"; };
+		34D191A6670A45C5BA4BB824 /* PXAdjacentSiblingCombinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAdjacentSiblingCombinator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAdjacentSiblingCombinator.h; sourceTree = "<group>"; };
+		3679EA532C324A63BE8FE07A /* PXKeyframe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXKeyframe.h; path = PixateFreestyle.framework/Versions/A/Headers/PXKeyframe.h; sourceTree = "<group>"; };
+		36BF4CEBE8274D219311E561 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		37489AC0F3144AB0B91C11FD /* PXUICollectionViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUICollectionViewDelegate.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUICollectionViewDelegate.h; sourceTree = "<group>"; };
+		37B7894794C04F96A305FCCE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		380D7A339E8247FB95620B8A /* PXUISlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUISlider.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUISlider.h; sourceTree = "<group>"; };
+		380EDFA5654649CE8765DCA7 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		39244ADEE3564F1F82551290 /* PXWeakWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXWeakWrapper.h; path = PixateFreestyle.framework/Versions/A/Headers/PXWeakWrapper.h; sourceTree = "<group>"; };
+		392676CC738F485285929D15 /* PXForceLoadPixateCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXForceLoadPixateCategories.h; path = PixateFreestyle.framework/Versions/A/Headers/PXForceLoadPixateCategories.h; sourceTree = "<group>"; };
+		3AD1D63E78FB490987D4ED7D /* PXUITextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITextView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITextView.h; sourceTree = "<group>"; };
+		3AE3F2484C6A4EDFA42981E9 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		3B9C3C6061634C878DC5ADA7 /* PXUIPickerViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIPickerViewDelegate.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIPickerViewDelegate.h; sourceTree = "<group>"; };
+		3BB68620EFA9472B872FA50F /* PXUIRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIRefreshControl.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIRefreshControl.h; sourceTree = "<group>"; };
+		3C56F5B8FC8E452F835A8B02 /* Pods-PixateFreestyleBug-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PixateFreestyleBug-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CC86C50C4EE4E9D97826989 /* PixateFreestyle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PixateFreestyle.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/PixateFreestyle.framework; sourceTree = DEVELOPER_DIR; };
+		3D63E2CD13AE4DE78CF520F5 /* Pods-PixateFreestyleBug-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixateFreestyleBug-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		3E50C008574A4A6F80CE46F2 /* PXRenderable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXRenderable.h; path = PixateFreestyle.framework/Versions/A/Headers/PXRenderable.h; sourceTree = "<group>"; };
+		40A483C93DC341428CA96D7C /* PXTypeSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTypeSelector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTypeSelector.h; sourceTree = "<group>"; };
+		40B8306E179C48FE9FF75CB8 /* PXUISwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUISwitch.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUISwitch.h; sourceTree = "<group>"; };
+		423548D0A73D4E32985667AA /* PXLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXLog.h; path = PixateFreestyle.framework/Versions/A/Headers/PXLog.h; sourceTree = "<group>"; };
+		455369CEF8544C72BA5DC8EC /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = PixateFreestyle.framework/Versions/A/Headers/DDTTYLogger.h; sourceTree = "<group>"; };
+		456E95DD18F04897B29919B1 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		460FFC98D9674B178B02E793 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		465235F72B2145DA8762F10C /* PXUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUtils.h; sourceTree = "<group>"; };
+		46DAB2AA49E4442D9024D04D /* PXTitaniumMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTitaniumMacros.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTitaniumMacros.h; sourceTree = "<group>"; };
+		472315F50F344BADBB184E31 /* PXTextShadowStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTextShadowStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTextShadowStyler.h; sourceTree = "<group>"; };
+		482C9FCCA6054155BBE3FC47 /* UIColor+PXColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+PXColors.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UIColor+PXColors.h"; sourceTree = "<group>"; };
+		4833E436B3B046008534B818 /* PXShadowGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShadowGroup.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShadowGroup.h; sourceTree = "<group>"; };
+		4ACAD07C5D9D41CFACB4FCB4 /* PXMediaGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMediaGroup.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMediaGroup.h; sourceTree = "<group>"; };
+		4C5FCD5B47684341907792FF /* PXStylesheet-Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PXStylesheet-Private.h"; path = "PixateFreestyle.framework/Versions/A/Headers/PXStylesheet-Private.h"; sourceTree = "<group>"; };
+		4EB4C5F249A644A09F6E9002 /* PXUIProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIProgressView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIProgressView.h; sourceTree = "<group>"; };
+		4F5411524F7B48DC81E387CA /* PXStylingMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylingMacros.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylingMacros.h; sourceTree = "<group>"; };
+		5038AC9D80624425A8916A68 /* PXSourceEmitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceEmitter.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSourceEmitter.h; sourceTree = "<group>"; };
+		507A2959031C4E2D9EDEBE85 /* PXTransformLexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTransformLexer.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTransformLexer.h; sourceTree = "<group>"; };
+		510426D90CC641A4B0A405C6 /* NSObject+PXSubclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PXSubclass.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSObject+PXSubclass.h"; sourceTree = "<group>"; };
+		51905495F4F74A5CA1E3ABF3 /* PXMediaExpressionGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMediaExpressionGroup.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMediaExpressionGroup.h; sourceTree = "<group>"; };
+		5199830A14C647149BA1240C /* PXNonScalingStroke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXNonScalingStroke.h; path = PixateFreestyle.framework/Versions/A/Headers/PXNonScalingStroke.h; sourceTree = "<group>"; };
+		536C44E40E544D32A8E67D63 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		53798D00DFE64AD89B6353ED /* PXArc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXArc.h; path = PixateFreestyle.framework/Versions/A/Headers/PXArc.h; sourceTree = "<group>"; };
+		540CE4DD8F424CD7BF96CCF1 /* PXUIScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIScrollView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIScrollView.h; sourceTree = "<group>"; };
+		540DF2C294F34C88AFED15FB /* UITabBarItem+PXStyling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+PXStyling.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UITabBarItem+PXStyling.h"; sourceTree = "<group>"; };
+		540DF57AF4544C079267DCC9 /* PXImagePaint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXImagePaint.h; path = PixateFreestyle.framework/Versions/A/Headers/PXImagePaint.h; sourceTree = "<group>"; };
+		55EA2771944B4B2FB00060EC /* PXKeyframeBlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXKeyframeBlock.h; path = PixateFreestyle.framework/Versions/A/Headers/PXKeyframeBlock.h; sourceTree = "<group>"; };
+		566DBC98022C445AB93D1F00 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		57F14308395F450DAD5C027D /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		585322D779B448CB9210891C /* PXPseudoClassFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPseudoClassFunction.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPseudoClassFunction.h; sourceTree = "<group>"; };
+		58CBBE9F6DCC4A2F912BDA3F /* PXSpecificity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSpecificity.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSpecificity.h; sourceTree = "<group>"; };
+		5AF150ED0DD44BBEAEAF2286 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		5AF33805380047289116FAC7 /* PXPaintStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPaintStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPaintStyler.h; sourceTree = "<group>"; };
+		5C6D70493934403788DE543A /* PXDescendantCombinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXDescendantCombinator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXDescendantCombinator.h; sourceTree = "<group>"; };
+		5C93402D6D1E4F6295DF48EB /* PXAttributedTextStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAttributedTextStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAttributedTextStyler.h; sourceTree = "<group>"; };
+		5CC3C35A02DA49ADB9F6D0A0 /* Pods-PixateFreestyleBug-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixateFreestyleBug-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		5DD7F0CFF19D4FDF83365121 /* PXMacrosCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMacrosCommon.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMacrosCommon.h; sourceTree = "<group>"; };
+		5DF76E64282C40068283CF8B /* PXUISearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUISearchBar.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUISearchBar.h; sourceTree = "<group>"; };
+		5F1E1E3404644FFB91D51A3B /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		5F5F6B6EE1A04E2D9FAF34E2 /* PXClassSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXClassSelector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXClassSelector.h; sourceTree = "<group>"; };
+		5F7BAE1A221543688B6AD12C /* PXUITableViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITableViewDelegate.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITableViewDelegate.h; sourceTree = "<group>"; };
+		611071DBA5B24EC599826A74 /* PXStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStyler.h; sourceTree = "<group>"; };
+		61AE576BA81A40DABB3B80A6 /* PXForceLoadCGCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXForceLoadCGCategories.h; path = PixateFreestyle.framework/Versions/A/Headers/PXForceLoadCGCategories.h; sourceTree = "<group>"; };
+		61B85523D1964E2889CB72E5 /* PXStylesheetLexer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylesheetLexer.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylesheetLexer.h; sourceTree = "<group>"; };
+		623325887DC34199BCB5766D /* PXKeyframeAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXKeyframeAnimation.h; path = PixateFreestyle.framework/Versions/A/Headers/PXKeyframeAnimation.h; sourceTree = "<group>"; };
+		63AE4CB45A9B4B3AAC8D5D71 /* PXBorderStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBorderStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBorderStyler.h; sourceTree = "<group>"; };
+		640C6EFB20114227B3C1AE4C /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+QueueAdditions.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		653EF63E6CB447C38FCEFAC8 /* PXVirtualControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXVirtualControl.h; path = PixateFreestyle.framework/Versions/A/Headers/PXVirtualControl.h; sourceTree = "<group>"; };
+		6844AC17DB824F619C9DCA71 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		6918149611B64EFF9F58A528 /* NSArray+Reverse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Reverse.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSArray+Reverse.h"; sourceTree = "<group>"; };
+		6A4D71AF4605482691FDDC06 /* NSObject+PXStyling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PXStyling.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSObject+PXStyling.h"; sourceTree = "<group>"; };
+		6BF005F587064687BCE6CDB5 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		6C4AE67AEAD642BF8D704B8F /* Pods-PixateFreestyleBug-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PixateFreestyleBug-dummy.m"; sourceTree = "<group>"; };
+		6C824615C25148419FB341BF /* NSMutableArray+StackAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+StackAdditions.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSMutableArray+StackAdditions.h"; sourceTree = "<group>"; };
+		6CA6A79703874DD9B72C504A /* PXSourceWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSourceWriter.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSourceWriter.h; sourceTree = "<group>"; };
+		6D555FEA42744265A25A0F57 /* PXFillStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFillStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFillStyler.h; sourceTree = "<group>"; };
+		6D904A941F58423DAB8C4FAD /* PXMKAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMKAnnotationView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMKAnnotationView.h; sourceTree = "<group>"; };
+		6DDAB5F968E64812B393BE8B /* PXStrokeStroke.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStrokeStroke.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStrokeStroke.h; sourceTree = "<group>"; };
+		708845A2E96D430388C84C58 /* PXUIToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIToolbar.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIToolbar.h; sourceTree = "<group>"; };
+		71567EB5185F402C97E15A1F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		741123D84BD14A7393BBBA9E /* PXViewUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXViewUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXViewUtils.h; sourceTree = "<group>"; };
+		74657963C4BC41A0BCA034DA /* PXVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXVector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXVector.h; sourceTree = "<group>"; };
+		750DC48E19DF4EF481233617 /* PXGenericStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXGenericStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXGenericStyler.h; sourceTree = "<group>"; };
+		7584C0658E6A4BB4B7DCBB42 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		77430BC748304E06BEFC3681 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		77E944AAB8504141A7081374 /* PXShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShape.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShape.h; sourceTree = "<group>"; };
+		77FB763FAB3F401B9FC6D201 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		788AF4E776D64281BE3ABA05 /* PXAttributeSelectorOperator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAttributeSelectorOperator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAttributeSelectorOperator.h; sourceTree = "<group>"; };
+		78AD43041DBD44C8B0E66A50 /* PXStylesheetLexeme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylesheetLexeme.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylesheetLexeme.h; sourceTree = "<group>"; };
+		78BE54B9C2A94507A3ED21AB /* PXImageUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXImageUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXImageUtils.h; sourceTree = "<group>"; };
+		78FA2DE85E0F482CB84CA688 /* PXCombinatorBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXCombinatorBase.h; path = PixateFreestyle.framework/Versions/A/Headers/PXCombinatorBase.h; sourceTree = "<group>"; };
+		7AB38E0AEAC74F3FBECDD332 /* PXMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMath.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMath.h; sourceTree = "<group>"; };
+		7D28E1CC780C49399D8A9139 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		7EBCFCFE5C38422BBCA63E28 /* PXRuleSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXRuleSet.h; path = PixateFreestyle.framework/Versions/A/Headers/PXRuleSet.h; sourceTree = "<group>"; };
+		80165EBACA8A4DC0A8FC3F23 /* PXUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIButton.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIButton.h; sourceTree = "<group>"; };
+		80294D5270964369A56ABA44 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		8168754222AF4639A38DE12D /* PixateFreestyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PixateFreestyle.h; path = PixateFreestyle.framework/Versions/A/Headers/PixateFreestyle.h; sourceTree = "<group>"; };
+		81C58ABCD2144DF18AD5532B /* PXGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXGraphics.h; path = PixateFreestyle.framework/Versions/A/Headers/PXGraphics.h; sourceTree = "<group>"; };
+		81D494A7F43F4CE689998E1F /* PXUITableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITableView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITableView.h; sourceTree = "<group>"; };
+		826B1A26C9F14E4385997F03 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		8676F7801C894329AEFAD51B /* PXWordMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXWordMatcher.h; path = PixateFreestyle.framework/Versions/A/Headers/PXWordMatcher.h; sourceTree = "<group>"; };
+		87466EA26EC24676B9190559 /* PXAnimationStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAnimationStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAnimationStyler.h; sourceTree = "<group>"; };
+		8888595EDAF54A46B850A0FB /* PXMKAnnotationContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMKAnnotationContainerView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMKAnnotationContainerView.h; sourceTree = "<group>"; };
+		8967F5C9D26F47D1A0D18F14 /* PXColorStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXColorStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXColorStyler.h; sourceTree = "<group>"; };
+		89D8464BF1FE4A7D8E5A7FAB /* PXURLMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXURLMatcher.h; path = PixateFreestyle.framework/Versions/A/Headers/PXURLMatcher.h; sourceTree = "<group>"; };
+		8A58C88FD8BF4B75B1AA4D8A /* libPods-PixateFreestyleBug-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixateFreestyleBug-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B030530B7CB48B3B4BD8CDF /* PXUICollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUICollectionView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUICollectionView.h; sourceTree = "<group>"; };
+		8C968757C7644E79B5BC6ADD /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E2532B8D21D4EBC8E5DBDD4 /* PXShapeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShapeView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShapeView.h; sourceTree = "<group>"; };
+		8EFD752A6E3A49A185FC439F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		9079AA8908C9482AB735BA83 /* PXUIPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIPickerView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIPickerView.h; sourceTree = "<group>"; };
+		9154944ACC1A44809E8EC7CC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		92742B47A50B4E04B815EFF2 /* PXCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXCacheManager.h; path = PixateFreestyle.framework/Versions/A/Headers/PXCacheManager.h; sourceTree = "<group>"; };
+		948DCC8777CD41379AC27C9C /* NSMutableDictionary+PXObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+PXObject.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSMutableDictionary+PXObject.h"; sourceTree = "<group>"; };
+		96E5E89D2B1840089B927379 /* Pods-PixateFreestyleBug-PixateFreestyle-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixateFreestyleBug-PixateFreestyle-Private.xcconfig"; sourceTree = "<group>"; };
+		987CE462DBFA402AB1CFA4F2 /* PXRectangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXRectangle.h; path = PixateFreestyle.framework/Versions/A/Headers/PXRectangle.h; sourceTree = "<group>"; };
+		98D3D69DA90048779A66C5F4 /* PXShapeStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShapeStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShapeStyler.h; sourceTree = "<group>"; };
+		998D3C0948D24E5C8061C2BA /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = PixateFreestyle.framework/Versions/A/Headers/DDFileLogger.h; sourceTree = "<group>"; };
+		9AA74D2CD1754B028159AF21 /* PXPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPolygon.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPolygon.h; sourceTree = "<group>"; };
+		9BEB7510925647508D92FC89 /* Pods-PixateFreestyleBug-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PixateFreestyleBug-environment.h"; sourceTree = "<group>"; };
+		9C89177F15F54AB7B9362B65 /* PXFontRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFontRegistry.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFontRegistry.h; sourceTree = "<group>"; };
+		9E0DE0E6F6684992BD981B00 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		9EF4F6FF2CB446B9AA0C7F23 /* UINavigationItem+PXStyling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationItem+PXStyling.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UINavigationItem+PXStyling.h"; sourceTree = "<group>"; };
+		9FF991E939E94AA0897F2019 /* PXSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSelector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSelector.h; sourceTree = "<group>"; };
+		A1DCBE9B828D42B094E884AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A359F5EF4DF346A8A357ED77 /* PXLinearGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXLinearGradient.h; path = PixateFreestyle.framework/Versions/A/Headers/PXLinearGradient.h; sourceTree = "<group>"; };
+		A365AC4D909C47858E96E1F1 /* PXPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPath.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPath.h; sourceTree = "<group>"; };
+		A39E4C35DD6048A892A596E3 /* Pods-PixateFreestyleBug-PixateFreestyle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixateFreestyleBug-PixateFreestyle.xcconfig"; sourceTree = "<group>"; };
+		A3C055C7777D4C46988B9F1D /* PXPseudoClassSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPseudoClassSelector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPseudoClassSelector.h; sourceTree = "<group>"; };
+		A404B25C2C6D458F872857A5 /* PXForceLoadStylingCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXForceLoadStylingCategories.h; path = PixateFreestyle.framework/Versions/A/Headers/PXForceLoadStylingCategories.h; sourceTree = "<group>"; };
+		A4BB634E759140EA97C46003 /* UIBarButtonItem+PXStyling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+PXStyling.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UIBarButtonItem+PXStyling.h"; sourceTree = "<group>"; };
+		A4D591D2173F4B81B3A59AB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A58A0D8ADAE84423A1227583 /* PXClassUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXClassUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXClassUtils.h; sourceTree = "<group>"; };
+		A5C65EFEB37C4D73B9FB7869 /* PXShadowPaint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShadowPaint.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShadowPaint.h; sourceTree = "<group>"; };
+		A70528FB5987449CA512996E /* PXUIDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIDatePicker.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIDatePicker.h; sourceTree = "<group>"; };
+		A96DB23C666E48D6AE22E91D /* PXUIView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIView.h; sourceTree = "<group>"; };
+		AAC87400FB9348F69E026798 /* PXDelegateLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXDelegateLogger.h; path = PixateFreestyle.framework/Versions/A/Headers/PXDelegateLogger.h; sourceTree = "<group>"; };
+		ABADDEF3519148D893DF6284 /* PXSiblingCombinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSiblingCombinator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSiblingCombinator.h; sourceTree = "<group>"; };
+		ADAFDA4AF30349BDA4359195 /* PXArrowRectangle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXArrowRectangle.h; path = PixateFreestyle.framework/Versions/A/Headers/PXArrowRectangle.h; sourceTree = "<group>"; };
+		AE5D896CBD8145BCABE65227 /* PXStylerContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylerContext.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylerContext.h; sourceTree = "<group>"; };
+		AE937131D2B94CFCA0D742ED /* PixateFreestyleConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PixateFreestyleConfiguration.h; path = PixateFreestyle.framework/Versions/A/Headers/PixateFreestyleConfiguration.h; sourceTree = "<group>"; };
+		AF280402B4BC4C29AB4EEAAF /* Pods-PixateFreestyleBug-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PixateFreestyleBug-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		AF78C73D565440609B1F7422 /* PXMPVolumeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMPVolumeView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMPVolumeView.h; sourceTree = "<group>"; };
+		AFC575E0A26240F29B72F717 /* PXBoxShadowStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBoxShadowStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBoxShadowStyler.h; sourceTree = "<group>"; };
+		B0181D70A7B449EFA0A1EB14 /* PXStrokeGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStrokeGroup.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStrokeGroup.h; sourceTree = "<group>"; };
+		B1221B32019D428F8731336E /* PXStyleInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStyleInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStyleInfo.h; sourceTree = "<group>"; };
+		B33416F3B1B44B3E9C23E9F2 /* PXTransformParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTransformParser.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTransformParser.h; sourceTree = "<group>"; };
+		B355DDA6CCD647FFA43840AD /* PXFontEntry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFontEntry.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFontEntry.h; sourceTree = "<group>"; };
+		B576D2BA1BDF4E92B7FBCF2B /* PXLayoutStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXLayoutStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXLayoutStyler.h; sourceTree = "<group>"; };
+		B5775EEF6CBF4878B1B8AF9F /* PXUILabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUILabel.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUILabel.h; sourceTree = "<group>"; };
+		B9ED849D4F654F859A89AB49 /* PXFontInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFontInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFontInfo.h; sourceTree = "<group>"; };
+		B9F1130FB1AB4682B705B16D /* UIBarItem+PXStyling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarItem+PXStyling.h"; path = "PixateFreestyle.framework/Versions/A/Headers/UIBarItem+PXStyling.h"; sourceTree = "<group>"; };
+		BAF98B15ECFE4E169B032083 /* PXPie.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPie.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPie.h; sourceTree = "<group>"; };
+		BB047774BB3046A6ADBD9C58 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		BBAD10F743274730B7BD21DC /* libPods-PixateFreestyleBug-PixateFreestyle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixateFreestyleBug-PixateFreestyle.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCA77A38A6F41C3A6EE1FCC /* PXEllipse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXEllipse.h; path = PixateFreestyle.framework/Versions/A/Headers/PXEllipse.h; sourceTree = "<group>"; };
+		BC21F73DC15E4F11920E6ED8 /* PixateFreestyle-Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PixateFreestyle-Private.h"; path = "PixateFreestyle.framework/Versions/A/Headers/PixateFreestyle-Private.h"; sourceTree = "<group>"; };
+		BDFD1DE9A3154BC58D65270B /* PXUIWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIWindow.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIWindow.h; sourceTree = "<group>"; };
+		BE5FA4943885496CBD0DF414 /* PXPatternMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPatternMatcher.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPatternMatcher.h; sourceTree = "<group>"; };
+		BF140DA743D34421801441CC /* PXMediaExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMediaExpression.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMediaExpression.h; sourceTree = "<group>"; };
+		C0D20AB5F45C429796B30ABC /* PXMKMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMKMapView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXMKMapView.h; sourceTree = "<group>"; };
+		C1C4A0822E39469CAD6E640E /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		C1E96598E3C745CE8AE29423 /* PXInsetStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXInsetStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXInsetStyler.h; sourceTree = "<group>"; };
+		C1ED47E301C6464B98A99CB6 /* PXSVGLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSVGLoader.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSVGLoader.h; sourceTree = "<group>"; };
+		C2EECCD06D704CB1A14FB052 /* Pods-PixateFreestyleBug-PixateFreestyle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PixateFreestyleBug-PixateFreestyle-dummy.m"; sourceTree = "<group>"; };
+		C45C2750591B473897660F91 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		C4FEBEB18D4E43D7BE783ED2 /* PXUICollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUICollectionViewCell.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUICollectionViewCell.h; sourceTree = "<group>"; };
+		C5F420C70D4746ADB4F1AE2D /* PXBoxModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBoxModel.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBoxModel.h; sourceTree = "<group>"; };
+		C6515C7C3C5F4283B7E9F9CA /* PXStylesheetTokenType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylesheetTokenType.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylesheetTokenType.h; sourceTree = "<group>"; };
+		C7B3984C811F46398637C741 /* PXAnimationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAnimationInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAnimationInfo.h; sourceTree = "<group>"; };
+		C8BEE81F12154BCE9634583D /* PXUIImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIImageView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIImageView.h; sourceTree = "<group>"; };
+		C9A6F2053EC84EA293583BE6 /* PXFontStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFontStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFontStyler.h; sourceTree = "<group>"; };
+		CAA9447FEF70492F9224DC77 /* PXCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXCircle.h; path = PixateFreestyle.framework/Versions/A/Headers/PXCircle.h; sourceTree = "<group>"; };
+		CAE8CECB3EAD4A0C99402219 /* Pods-PixateFreestyleBug-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PixateFreestyleBug-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		CB0A8D37410D4663AB105C34 /* PXNotPseudoClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXNotPseudoClass.h; path = PixateFreestyle.framework/Versions/A/Headers/PXNotPseudoClass.h; sourceTree = "<group>"; };
+		CBBEBD300D6C4E3DA3E238B9 /* Pods-PixateFreestyleBug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixateFreestyleBug.xcconfig"; sourceTree = "<group>"; };
+		CC90C71B536D4C7691248991 /* PXValueParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXValueParser.h; path = PixateFreestyle.framework/Versions/A/Headers/PXValueParser.h; sourceTree = "<group>"; };
+		CF67C5A253FA4AA38DB5081C /* PXLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXLine.h; path = PixateFreestyle.framework/Versions/A/Headers/PXLine.h; sourceTree = "<group>"; };
+		CF735DB0E6E342D8B20C83E0 /* PXUINavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUINavigationBar.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUINavigationBar.h; sourceTree = "<group>"; };
+		D12341C39AAF46009D609B6F /* PXSolidPaint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXSolidPaint.h; path = PixateFreestyle.framework/Versions/A/Headers/PXSolidPaint.h; sourceTree = "<group>"; };
+		D1472A6407BC42FDB8DE639F /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = PixateFreestyle.framework/Versions/A/Headers/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		D1B1A6A2642040279413CC0B /* PXShapeDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShapeDocument.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShapeDocument.h; sourceTree = "<group>"; };
+		D1C50C9C0CCB4357A4DDC290 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		D1F76D29F45B4D178BD28538 /* PXDeclaration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXDeclaration.h; path = PixateFreestyle.framework/Versions/A/Headers/PXDeclaration.h; sourceTree = "<group>"; };
+		D2EE4415779B4D6E874EF144 /* PXDimension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXDimension.h; path = PixateFreestyle.framework/Versions/A/Headers/PXDimension.h; sourceTree = "<group>"; };
+		D5DA305EEAD84E6E825424FB /* PXPaintGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPaintGroup.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPaintGroup.h; sourceTree = "<group>"; };
+		D69AD3FB06EF442CB0FD5997 /* PXUIActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIActionSheet.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIActionSheet.h; sourceTree = "<group>"; };
+		D6B7FDC3A584408A9303880F /* PXStylerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStylerBase.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStylerBase.h; sourceTree = "<group>"; };
+		D81233E69CDC4F38B265A88A /* PXNotificationInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXNotificationInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXNotificationInfo.h; sourceTree = "<group>"; };
+		DB0D0BC3964E4BA0AA3B8F71 /* PXShapeGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShapeGroup.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShapeGroup.h; sourceTree = "<group>"; };
+		DB3C7635DAAC4685B042C3B3 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		DB86810C623745E3808E5F8B /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = PixateFreestyle.framework/Versions/A/Headers/DDASLLogger.h; sourceTree = "<group>"; };
+		DC10B404981A4021AA1F6CD8 /* PXGestalt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXGestalt.h; path = PixateFreestyle.framework/Versions/A/Headers/PXGestalt.h; sourceTree = "<group>"; };
+		DFD6165772FA4A71BC4D377D /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = PixateFreestyle.framework/Versions/A/Headers/DDLog.h; sourceTree = "<group>"; };
+		E0372A7521A846088CDC6881 /* PXAttributeSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAttributeSelector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAttributeSelector.h; sourceTree = "<group>"; };
+		E4658B84D27E417697C12676 /* PXText.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXText.h; path = PixateFreestyle.framework/Versions/A/Headers/PXText.h; sourceTree = "<group>"; };
+		E50908ECBA5242348917461B /* PXStyleUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStyleUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStyleUtils.h; sourceTree = "<group>"; };
+		E5964964CE0C4717AEC3FB1D /* PXPseudoClassPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPseudoClassPredicate.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPseudoClassPredicate.h; sourceTree = "<group>"; };
+		E61E5C3B191F42FB8BE82DB0 /* PXUILayoutContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUILayoutContainerView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUILayoutContainerView.h; sourceTree = "<group>"; };
+		E68F655294C84404B15AB377 /* NSScanner+PXFloat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSScanner+PXFloat.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSScanner+PXFloat.h"; sourceTree = "<group>"; };
+		E81F31D34D6A44FAADC36D4D /* PXBoundable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBoundable.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBoundable.h; sourceTree = "<group>"; };
+		E8D1D414018E461585429069 /* PXFileFunctionLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFileFunctionLogFormatter.h; path = PixateFreestyle.framework/Versions/A/Headers/PXFileFunctionLogFormatter.h; sourceTree = "<group>"; };
+		E8DB908080BC46669F2CB06D /* libPods-PixateFreestyleBug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PixateFreestyleBug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9849D8819004E43A832124B /* Pods-PixateFreestyleBug-PixateFreestyle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PixateFreestyleBug-PixateFreestyle-prefix.pch"; sourceTree = "<group>"; };
+		EA5C935441674013A23521BF /* PXOffsets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXOffsets.h; path = PixateFreestyle.framework/Versions/A/Headers/PXOffsets.h; sourceTree = "<group>"; };
+		EA5C99A9497B4EAE980FCD18 /* PXUISegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUISegmentedControl.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUISegmentedControl.h; sourceTree = "<group>"; };
+		EAEBCAF13B72479CB985D728 /* PXUITableViewCellContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITableViewCellContentView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITableViewCellContentView.h; sourceTree = "<group>"; };
+		EB8256A27C4C490A93886C1F /* PXStyleTreeInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStyleTreeInfo.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStyleTreeInfo.h; sourceTree = "<group>"; };
+		EB87E46B007C4664A011112B /* PXShadow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXShadow.h; path = PixateFreestyle.framework/Versions/A/Headers/PXShadow.h; sourceTree = "<group>"; };
+		EBC9E4A78AE14793B833839A /* PXStyleable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXStyleable.h; path = PixateFreestyle.framework/Versions/A/Headers/PXStyleable.h; sourceTree = "<group>"; };
+		F0134B59F77C41E885531FAB /* PXBarShadowStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXBarShadowStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXBarShadowStyler.h; sourceTree = "<group>"; };
+		F12DC56C7ED04306BA42F849 /* PXAnimationPropertyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXAnimationPropertyHandler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXAnimationPropertyHandler.h; sourceTree = "<group>"; };
+		F261C4024F324949B37239D1 /* objc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objc.h; path = PixateFreestyle.framework/Versions/A/Headers/objc.h; sourceTree = "<group>"; };
+		F290B3A2EAAD4EADA1F6FCAC /* PXNamedMediaExpression.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXNamedMediaExpression.h; path = PixateFreestyle.framework/Versions/A/Headers/PXNamedMediaExpression.h; sourceTree = "<group>"; };
+		F29230A4E36840B0B2899D4B /* PXNumberMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXNumberMatcher.h; path = PixateFreestyle.framework/Versions/A/Headers/PXNumberMatcher.h; sourceTree = "<group>"; };
+		F3B4D661B2BF406A963B2038 /* PXUIStepper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIStepper.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIStepper.h; sourceTree = "<group>"; };
+		F3DD5030B8154D1FADA16F48 /* PXIdSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXIdSelector.h; path = PixateFreestyle.framework/Versions/A/Headers/PXIdSelector.h; sourceTree = "<group>"; };
+		F4AEAAC98E904CFFB11B0B65 /* PXPaint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPaint.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPaint.h; sourceTree = "<group>"; };
+		F4DC8A5F5CD14C19BE7E2BBD /* PXProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXProxy.h; path = PixateFreestyle.framework/Versions/A/Headers/PXProxy.h; sourceTree = "<group>"; };
+		F556D56221264FB187E9D05D /* PXUITabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITabBar.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITabBar.h; sourceTree = "<group>"; };
+		F56EB09564AE462991F06CF0 /* NSObject+PXClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+PXClass.h"; path = "PixateFreestyle.framework/Versions/A/Headers/NSObject+PXClass.h"; sourceTree = "<group>"; };
+		F67B5C1EF86E4FBF90D730AD /* PXLoggingUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXLoggingUtils.h; path = PixateFreestyle.framework/Versions/A/Headers/PXLoggingUtils.h; sourceTree = "<group>"; };
+		F807B4B8AC4C4258B1BABDB8 /* PXPaintable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXPaintable.h; path = PixateFreestyle.framework/Versions/A/Headers/PXPaintable.h; sourceTree = "<group>"; };
+		F8C24877C442474BAD6325DE /* PXUITextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUITextField.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUITextField.h; sourceTree = "<group>"; };
+		F8CCD50A47364C68BB1032EE /* PXTextContentStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTextContentStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTextContentStyler.h; sourceTree = "<group>"; };
+		F8D2074FEB7745599BE409C7 /* PXTransformStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTransformStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTransformStyler.h; sourceTree = "<group>"; };
+		F9D8B9BC1F6B4D9AA46BE614 /* PXUIWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXUIWebView.h; path = PixateFreestyle.framework/Versions/A/Headers/PXUIWebView.h; sourceTree = "<group>"; };
+		F9F61DD99CCC45DBBEA3A0E7 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		FBC8CD935EF440BE8DFDCDEA /* PXChildCombinator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXChildCombinator.h; path = PixateFreestyle.framework/Versions/A/Headers/PXChildCombinator.h; sourceTree = "<group>"; };
+		FC82C3EC2BF44324BC071C20 /* PXOpacityStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXOpacityStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXOpacityStyler.h; sourceTree = "<group>"; };
+		FE92CBC4BBF24AF19282F871 /* PXRadialGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXRadialGradient.h; path = PixateFreestyle.framework/Versions/A/Headers/PXRadialGradient.h; sourceTree = "<group>"; };
+		FEE5988BAA014B6E91B23A1E /* PXTransitionStyler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXTransitionStyler.h; path = PixateFreestyle.framework/Versions/A/Headers/PXTransitionStyler.h; sourceTree = "<group>"; };
+		FF4AC99101B64942BCB22677 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		957D1B8E74344A4F9F0155F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEED76F64B0549B09268525C /* CoreGraphics.framework in Frameworks */,
+				CFAF52F5D42A4FFD8BEEAB1B /* Foundation.framework in Frameworks */,
+				CD2E236DC38B4C5886016EA9 /* MobileCoreServices.framework in Frameworks */,
+				36A09761639A4892B7BCE8DC /* Security.framework in Frameworks */,
+				F269875DAC2A4E3E967AB497 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5341797620046CEBE25209F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C695B8A4160E44179859B150 /* Foundation.framework in Frameworks */,
+				8AAFA22357B14B2E8997691D /* libPods-PixateFreestyleBug-AFNetworking.a in Frameworks */,
+				C0633D144A5941EC9B952E49 /* libPods-PixateFreestyleBug-PixateFreestyle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24881FB2F084A2FB04068FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F23A0A5DC8347C48B47958C /* CoreGraphics.framework in Frameworks */,
+				B4D72B45F65946EB8B15CBC0 /* CoreText.framework in Frameworks */,
+				91F0E593735C4CFFB35CFCB6 /* Foundation.framework in Frameworks */,
+				25E16D3FA41E43DE9C71DC4F /* PixateFreestyle.framework in Frameworks */,
+				01EAC87C110D42A4AA438ACA /* QuartzCore.framework in Frameworks */,
+				091ECFCD8B7D4C6999E4353F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D6D6CCDA7B482585F821ED /* PixateFreestyle */ = {
+			isa = PBXGroup;
+			children = (
+				DB86810C623745E3808E5F8B /* DDASLLogger.h */,
+				D1472A6407BC42FDB8DE639F /* DDAbstractDatabaseLogger.h */,
+				998D3C0948D24E5C8061C2BA /* DDFileLogger.h */,
+				DFD6165772FA4A71BC4D377D /* DDLog.h */,
+				455369CEF8544C72BA5DC8EC /* DDTTYLogger.h */,
+				6918149611B64EFF9F58A528 /* NSArray+Reverse.h */,
+				1217A9B057EA48E38B806C72 /* NSDictionary+PXCSSEncoding.h */,
+				2336AF76B16449C28C818D06 /* NSDictionary+PXObject.h */,
+				640C6EFB20114227B3C1AE4C /* NSMutableArray+QueueAdditions.h */,
+				6C824615C25148419FB341BF /* NSMutableArray+StackAdditions.h */,
+				948DCC8777CD41379AC27C9C /* NSMutableDictionary+PXObject.h */,
+				F56EB09564AE462991F06CF0 /* NSObject+PXClass.h */,
+				6A4D71AF4605482691FDDC06 /* NSObject+PXStyling.h */,
+				510426D90CC641A4B0A405C6 /* NSObject+PXSubclass.h */,
+				E68F655294C84404B15AB377 /* NSScanner+PXFloat.h */,
+				34D191A6670A45C5BA4BB824 /* PXAdjacentSiblingCombinator.h */,
+				C7B3984C811F46398637C741 /* PXAnimationInfo.h */,
+				F12DC56C7ED04306BA42F849 /* PXAnimationPropertyHandler.h */,
+				87466EA26EC24676B9190559 /* PXAnimationStyler.h */,
+				53798D00DFE64AD89B6353ED /* PXArc.h */,
+				ADAFDA4AF30349BDA4359195 /* PXArrowRectangle.h */,
+				E0372A7521A846088CDC6881 /* PXAttributeSelector.h */,
+				788AF4E776D64281BE3ABA05 /* PXAttributeSelectorOperator.h */,
+				5C93402D6D1E4F6295DF48EB /* PXAttributedTextStyler.h */,
+				016719447B0A4C70A62139EB /* PXBarMetricsAdjustmentStyler.h */,
+				F0134B59F77C41E885531FAB /* PXBarShadowStyler.h */,
+				32856C964BBC4348B4CDD93A /* PXBorderInfo.h */,
+				63AE4CB45A9B4B3AAC8D5D71 /* PXBorderStyler.h */,
+				E81F31D34D6A44FAADC36D4D /* PXBoundable.h */,
+				C5F420C70D4746ADB4F1AE2D /* PXBoxModel.h */,
+				AFC575E0A26240F29B72F717 /* PXBoxShadowStyler.h */,
+				92742B47A50B4E04B815EFF2 /* PXCacheManager.h */,
+				2D06C2E2AA5844AC81217368 /* PXCharacterMatcher.h */,
+				FBC8CD935EF440BE8DFDCDEA /* PXChildCombinator.h */,
+				CAA9447FEF70492F9224DC77 /* PXCircle.h */,
+				5F5F6B6EE1A04E2D9FAF34E2 /* PXClassSelector.h */,
+				A58A0D8ADAE84423A1227583 /* PXClassUtils.h */,
+				8967F5C9D26F47D1A0D18F14 /* PXColorStyler.h */,
+				30084FB6D84C4D3BB40DC0CF /* PXCombinator.h */,
+				78FA2DE85E0F482CB84CA688 /* PXCombinatorBase.h */,
+				D1F76D29F45B4D178BD28538 /* PXDeclaration.h */,
+				1D8400A54B2A48C287573A43 /* PXDeclarationContainer.h */,
+				AAC87400FB9348F69E026798 /* PXDelegateLogger.h */,
+				5C6D70493934403788DE543A /* PXDescendantCombinator.h */,
+				D2EE4415779B4D6E874EF144 /* PXDimension.h */,
+				BBCA77A38A6F41C3A6EE1FCC /* PXEllipse.h */,
+				0E54C40D651E48BDA68423C5 /* PXEllipticalArc.h */,
+				E8D1D414018E461585429069 /* PXFileFunctionLogFormatter.h */,
+				0415586F125C43118D08C692 /* PXFileUtils.h */,
+				0FFDB17BB81247878383A82B /* PXFileWatcher.h */,
+				6D555FEA42744265A25A0F57 /* PXFillStyler.h */,
+				B355DDA6CCD647FFA43840AD /* PXFontEntry.h */,
+				B9ED849D4F654F859A89AB49 /* PXFontInfo.h */,
+				9C89177F15F54AB7B9362B65 /* PXFontRegistry.h */,
+				C9A6F2053EC84EA293583BE6 /* PXFontStyler.h */,
+				61AE576BA81A40DABB3B80A6 /* PXForceLoadCGCategories.h */,
+				0966EA09BEB14AB49F6456C5 /* PXForceLoadControls.h */,
+				392676CC738F485285929D15 /* PXForceLoadPixateCategories.h */,
+				A404B25C2C6D458F872857A5 /* PXForceLoadStylingCategories.h */,
+				1126DA4FACEB4019AE294FB6 /* PXForceLoadVirtualCategories.h */,
+				750DC48E19DF4EF481233617 /* PXGenericStyler.h */,
+				DC10B404981A4021AA1F6CD8 /* PXGestalt.h */,
+				291F7DE6CE274C2698BFA8B7 /* PXGradient.h */,
+				81C58ABCD2144DF18AD5532B /* PXGraphics.h */,
+				F3DD5030B8154D1FADA16F48 /* PXIdSelector.h */,
+				540DF57AF4544C079267DCC9 /* PXImagePaint.h */,
+				78BE54B9C2A94507A3ED21AB /* PXImageUtils.h */,
+				C1E96598E3C745CE8AE29423 /* PXInsetStyler.h */,
+				3679EA532C324A63BE8FE07A /* PXKeyframe.h */,
+				623325887DC34199BCB5766D /* PXKeyframeAnimation.h */,
+				55EA2771944B4B2FB00060EC /* PXKeyframeBlock.h */,
+				B576D2BA1BDF4E92B7FBCF2B /* PXLayoutStyler.h */,
+				1ACD816551BE4B579B2A7B71 /* PXLexemeCreator.h */,
+				CF67C5A253FA4AA38DB5081C /* PXLine.h */,
+				A359F5EF4DF346A8A357ED77 /* PXLinearGradient.h */,
+				423548D0A73D4E32985667AA /* PXLog.h */,
+				F67B5C1EF86E4FBF90D730AD /* PXLoggingUtils.h */,
+				8888595EDAF54A46B850A0FB /* PXMKAnnotationContainerView.h */,
+				6D904A941F58423DAB8C4FAD /* PXMKAnnotationView.h */,
+				C0D20AB5F45C429796B30ABC /* PXMKMapView.h */,
+				AF78C73D565440609B1F7422 /* PXMPVolumeView.h */,
+				5DD7F0CFF19D4FDF83365121 /* PXMacrosCommon.h */,
+				7AB38E0AEAC74F3FBECDD332 /* PXMath.h */,
+				BF140DA743D34421801441CC /* PXMediaExpression.h */,
+				51905495F4F74A5CA1E3ABF3 /* PXMediaExpressionGroup.h */,
+				4ACAD07C5D9D41CFACB4FCB4 /* PXMediaGroup.h */,
+				F290B3A2EAAD4EADA1F6FCAC /* PXNamedMediaExpression.h */,
+				5199830A14C647149BA1240C /* PXNonScalingStroke.h */,
+				CB0A8D37410D4663AB105C34 /* PXNotPseudoClass.h */,
+				D81233E69CDC4F38B265A88A /* PXNotificationInfo.h */,
+				23B56A5A47664128A65AA0C7 /* PXNotificationManager.h */,
+				F29230A4E36840B0B2899D4B /* PXNumberMatcher.h */,
+				EA5C935441674013A23521BF /* PXOffsets.h */,
+				FC82C3EC2BF44324BC071C20 /* PXOpacityStyler.h */,
+				F4AEAAC98E904CFFB11B0B65 /* PXPaint.h */,
+				D5DA305EEAD84E6E825424FB /* PXPaintGroup.h */,
+				5AF33805380047289116FAC7 /* PXPaintStyler.h */,
+				F807B4B8AC4C4258B1BABDB8 /* PXPaintable.h */,
+				A365AC4D909C47858E96E1F1 /* PXPath.h */,
+				BE5FA4943885496CBD0DF414 /* PXPatternMatcher.h */,
+				BAF98B15ECFE4E169B032083 /* PXPie.h */,
+				9AA74D2CD1754B028159AF21 /* PXPolygon.h */,
+				F4DC8A5F5CD14C19BE7E2BBD /* PXProxy.h */,
+				585322D779B448CB9210891C /* PXPseudoClassFunction.h */,
+				E5964964CE0C4717AEC3FB1D /* PXPseudoClassPredicate.h */,
+				A3C055C7777D4C46988B9F1D /* PXPseudoClassSelector.h */,
+				FE92CBC4BBF24AF19282F871 /* PXRadialGradient.h */,
+				987CE462DBFA402AB1CFA4F2 /* PXRectangle.h */,
+				3E50C008574A4A6F80CE46F2 /* PXRenderable.h */,
+				7EBCFCFE5C38422BBCA63E28 /* PXRuleSet.h */,
+				08E9BEF428CB4D04BC3EFAAD /* PXRuntimeUtils.h */,
+				C1ED47E301C6464B98A99CB6 /* PXSVGLoader.h */,
+				9FF991E939E94AA0897F2019 /* PXSelector.h */,
+				EB87E46B007C4664A011112B /* PXShadow.h */,
+				4833E436B3B046008534B818 /* PXShadowGroup.h */,
+				A5C65EFEB37C4D73B9FB7869 /* PXShadowPaint.h */,
+				77E944AAB8504141A7081374 /* PXShape.h */,
+				D1B1A6A2642040279413CC0B /* PXShapeDocument.h */,
+				DB0D0BC3964E4BA0AA3B8F71 /* PXShapeGroup.h */,
+				98D3D69DA90048779A66C5F4 /* PXShapeStyler.h */,
+				8E2532B8D21D4EBC8E5DBDD4 /* PXShapeView.h */,
+				ABADDEF3519148D893DF6284 /* PXSiblingCombinator.h */,
+				D12341C39AAF46009D609B6F /* PXSolidPaint.h */,
+				5038AC9D80624425A8916A68 /* PXSourceEmitter.h */,
+				6CA6A79703874DD9B72C504A /* PXSourceWriter.h */,
+				58CBBE9F6DCC4A2F912BDA3F /* PXSpecificity.h */,
+				224FCC6098EB40B89D045190 /* PXStroke.h */,
+				B0181D70A7B449EFA0A1EB14 /* PXStrokeGroup.h */,
+				2667C8CC207A4D77983C6D21 /* PXStrokeRenderer.h */,
+				6DDAB5F968E64812B393BE8B /* PXStrokeStroke.h */,
+				B1221B32019D428F8731336E /* PXStyleInfo.h */,
+				EB8256A27C4C490A93886C1F /* PXStyleTreeInfo.h */,
+				E50908ECBA5242348917461B /* PXStyleUtils.h */,
+				EBC9E4A78AE14793B833839A /* PXStyleable.h */,
+				611071DBA5B24EC599826A74 /* PXStyler.h */,
+				D6B7FDC3A584408A9303880F /* PXStylerBase.h */,
+				AE5D896CBD8145BCABE65227 /* PXStylerContext.h */,
+				32BD4BD576384708911D4EBC /* PXStylesheet.h */,
+				4C5FCD5B47684341907792FF /* PXStylesheet-Private.h */,
+				78AD43041DBD44C8B0E66A50 /* PXStylesheetLexeme.h */,
+				61B85523D1964E2889CB72E5 /* PXStylesheetLexer.h */,
+				1835ED4AAE794CD0870F76A6 /* PXStylesheetParser.h */,
+				C6515C7C3C5F4283B7E9F9CA /* PXStylesheetTokenType.h */,
+				4F5411524F7B48DC81E387CA /* PXStylingMacros.h */,
+				E4658B84D27E417697C12676 /* PXText.h */,
+				F8CCD50A47364C68BB1032EE /* PXTextContentStyler.h */,
+				472315F50F344BADBB184E31 /* PXTextShadowStyler.h */,
+				46DAB2AA49E4442D9024D04D /* PXTitaniumMacros.h */,
+				507A2959031C4E2D9EDEBE85 /* PXTransformLexer.h */,
+				B33416F3B1B44B3E9C23E9F2 /* PXTransformParser.h */,
+				F8D2074FEB7745599BE409C7 /* PXTransformStyler.h */,
+				2628D22D3FB747F6B6A5C21F /* PXTransformTokenType.h */,
+				0964F9CB3D9946F3B77D6C0A /* PXTransitionRuleSetInfo.h */,
+				FEE5988BAA014B6E91B23A1E /* PXTransitionStyler.h */,
+				40A483C93DC341428CA96D7C /* PXTypeSelector.h */,
+				D69AD3FB06EF442CB0FD5997 /* PXUIActionSheet.h */,
+				07B1C8FFD7BA441CAE87A040 /* PXUIActivityIndicatorView.h */,
+				80165EBACA8A4DC0A8FC3F23 /* PXUIButton.h */,
+				8B030530B7CB48B3B4BD8CDF /* PXUICollectionView.h */,
+				C4FEBEB18D4E43D7BE783ED2 /* PXUICollectionViewCell.h */,
+				37489AC0F3144AB0B91C11FD /* PXUICollectionViewDelegate.h */,
+				A70528FB5987449CA512996E /* PXUIDatePicker.h */,
+				C8BEE81F12154BCE9634583D /* PXUIImageView.h */,
+				B5775EEF6CBF4878B1B8AF9F /* PXUILabel.h */,
+				E61E5C3B191F42FB8BE82DB0 /* PXUILayoutContainerView.h */,
+				CF735DB0E6E342D8B20C83E0 /* PXUINavigationBar.h */,
+				27645C183FE5457C8CF20268 /* PXUIPageControl.h */,
+				9079AA8908C9482AB735BA83 /* PXUIPickerView.h */,
+				3B9C3C6061634C878DC5ADA7 /* PXUIPickerViewDelegate.h */,
+				4EB4C5F249A644A09F6E9002 /* PXUIProgressView.h */,
+				3BB68620EFA9472B872FA50F /* PXUIRefreshControl.h */,
+				540CE4DD8F424CD7BF96CCF1 /* PXUIScrollView.h */,
+				5DF76E64282C40068283CF8B /* PXUISearchBar.h */,
+				EA5C99A9497B4EAE980FCD18 /* PXUISegmentedControl.h */,
+				380D7A339E8247FB95620B8A /* PXUISlider.h */,
+				F3B4D661B2BF406A963B2038 /* PXUIStepper.h */,
+				40B8306E179C48FE9FF75CB8 /* PXUISwitch.h */,
+				F556D56221264FB187E9D05D /* PXUITabBar.h */,
+				81D494A7F43F4CE689998E1F /* PXUITableView.h */,
+				136DC48D9A8A4516875FCFFC /* PXUITableViewCell.h */,
+				EAEBCAF13B72479CB985D728 /* PXUITableViewCellContentView.h */,
+				5F7BAE1A221543688B6AD12C /* PXUITableViewDelegate.h */,
+				2585A92123964B22B60461C4 /* PXUITableViewHeaderFooterView.h */,
+				F8C24877C442474BAD6325DE /* PXUITextField.h */,
+				3AD1D63E78FB490987D4ED7D /* PXUITextView.h */,
+				708845A2E96D430388C84C58 /* PXUIToolbar.h */,
+				A96DB23C666E48D6AE22E91D /* PXUIView.h */,
+				F9D8B9BC1F6B4D9AA46BE614 /* PXUIWebView.h */,
+				BDFD1DE9A3154BC58D65270B /* PXUIWindow.h */,
+				89D8464BF1FE4A7D8E5A7FAB /* PXURLMatcher.h */,
+				465235F72B2145DA8762F10C /* PXUtils.h */,
+				12BC08AE9DD7472084D5D5BA /* PXValue.h */,
+				CC90C71B536D4C7691248991 /* PXValueParser.h */,
+				74657963C4BC41A0BCA034DA /* PXVector.h */,
+				741123D84BD14A7393BBBA9E /* PXViewUtils.h */,
+				653EF63E6CB447C38FCEFAC8 /* PXVirtualControl.h */,
+				1757821E6A53461A9E90313C /* PXVirtualStyleableControl.h */,
+				39244ADEE3564F1F82551290 /* PXWeakWrapper.h */,
+				8676F7801C894329AEFAD51B /* PXWordMatcher.h */,
+				8168754222AF4639A38DE12D /* PixateFreestyle.h */,
+				BC21F73DC15E4F11920E6ED8 /* PixateFreestyle-Private.h */,
+				AE937131D2B94CFCA0D742ED /* PixateFreestyleConfiguration.h */,
+				A4BB634E759140EA97C46003 /* UIBarButtonItem+PXStyling.h */,
+				1330DE49DEC74D1D8DB238E4 /* UIBarButtonItem+PXStyling-Private.h */,
+				B9F1130FB1AB4682B705B16D /* UIBarItem+PXStyling.h */,
+				482C9FCCA6054155BBE3FC47 /* UIColor+PXColors.h */,
+				9EF4F6FF2CB446B9AA0C7F23 /* UINavigationItem+PXStyling.h */,
+				540DF2C294F34C88AFED15FB /* UITabBarItem+PXStyling.h */,
+				2939AC6743964A5599A99729 /* UIView+PXStyling.h */,
+				1F61CA8085F7459DBFDC586C /* UIView+PXStyling-Private.h */,
+				258343AC0C544E468CC6603D /* Version.h */,
+				F261C4024F324949B37239D1 /* objc.h */,
+				46F4F05C365947BB8E17E769 /* Support Files */,
+			);
+			path = PixateFreestyle;
+			sourceTree = "<group>";
+		};
+		338ECC1A33044EB4B21D3B09 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E26B2AFA63E3494482506089 /* NSURLConnection */,
+				615146A59B524A11992FD49F /* NSURLSession */,
+				8547050DEC014F66BB37BEE4 /* Reachability */,
+				B9B2EABCE5284A96B389D2B8 /* Security */,
+				956CB6D472E44A529C0E1E0B /* Serialization */,
+				DD150C9127804AA484D23601 /* Support Files */,
+				632A5B6D58444609B7427884 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		46F4F05C365947BB8E17E769 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39E4C35DD6048A892A596E3 /* Pods-PixateFreestyleBug-PixateFreestyle.xcconfig */,
+				96E5E89D2B1840089B927379 /* Pods-PixateFreestyleBug-PixateFreestyle-Private.xcconfig */,
+				C2EECCD06D704CB1A14FB052 /* Pods-PixateFreestyleBug-PixateFreestyle-dummy.m */,
+				E9849D8819004E43A832124B /* Pods-PixateFreestyleBug-PixateFreestyle-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		4CA5E3597E61469899AA15F5 = {
+			isa = PBXGroup;
+			children = (
+				8C968757C7644E79B5BC6ADD /* Podfile */,
+				BF0CBEFAC59F4C9EAC20E78C /* Frameworks */,
+				CA034C9A08634F77ABE88752 /* Pods */,
+				D5680C8757D649DE8BC15945 /* Products */,
+				9729D073B75F437A9064C475 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		615146A59B524A11992FD49F /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				826B1A26C9F14E4385997F03 /* AFHTTPSessionManager.h */,
+				C45C2750591B473897660F91 /* AFHTTPSessionManager.m */,
+				380EDFA5654649CE8765DCA7 /* AFURLSessionManager.h */,
+				1A3351FFDDC14E0B8D0CAE83 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		632A5B6D58444609B7427884 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				77430BC748304E06BEFC3681 /* AFNetworkActivityIndicatorManager.h */,
+				D1C50C9C0CCB4357A4DDC290 /* AFNetworkActivityIndicatorManager.m */,
+				C1C4A0822E39469CAD6E640E /* UIActivityIndicatorView+AFNetworking.h */,
+				9E0DE0E6F6684992BD981B00 /* UIActivityIndicatorView+AFNetworking.m */,
+				DB3C7635DAAC4685B042C3B3 /* UIAlertView+AFNetworking.h */,
+				460FFC98D9674B178B02E793 /* UIAlertView+AFNetworking.m */,
+				25F3F963C6874CE0BE7A88AA /* UIButton+AFNetworking.h */,
+				566DBC98022C445AB93D1F00 /* UIButton+AFNetworking.m */,
+				8EFD752A6E3A49A185FC439F /* UIImageView+AFNetworking.h */,
+				2E7BF6B81BB84CC999F249F6 /* UIImageView+AFNetworking.m */,
+				F9F61DD99CCC45DBBEA3A0E7 /* UIKit+AFNetworking.h */,
+				80294D5270964369A56ABA44 /* UIProgressView+AFNetworking.h */,
+				536C44E40E544D32A8E67D63 /* UIProgressView+AFNetworking.m */,
+				2AF991766F424C46A5003C8A /* UIRefreshControl+AFNetworking.h */,
+				2452CC650C2C4027A7383800 /* UIRefreshControl+AFNetworking.m */,
+				2A9D020FD2864F49A4501D93 /* UIWebView+AFNetworking.h */,
+				77FB763FAB3F401B9FC6D201 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		8547050DEC014F66BB37BEE4 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5AF150ED0DD44BBEAEAF2286 /* AFNetworkReachabilityManager.h */,
+				034E3B6668A447689CDF64AA /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		956CB6D472E44A529C0E1E0B /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				71567EB5185F402C97E15A1F /* AFURLRequestSerialization.h */,
+				3AE3F2484C6A4EDFA42981E9 /* AFURLRequestSerialization.m */,
+				36BF4CEBE8274D219311E561 /* AFURLResponseSerialization.h */,
+				57F14308395F450DAD5C027D /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		9729D073B75F437A9064C475 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FD922B770CCD469C89B0A55E /* Pods-PixateFreestyleBug */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B9B2EABCE5284A96B389D2B8 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				7584C0658E6A4BB4B7DCBB42 /* AFSecurityPolicy.h */,
+				268C37C067CF4C6FA1836633 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		BF0CBEFAC59F4C9EAC20E78C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1ACF532D2B744FCB815B1BB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1ACF532D2B744FCB815B1BB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A1DCBE9B828D42B094E884AB /* CoreGraphics.framework */,
+				0D5BA94927A443EDB99FF2CF /* CoreText.framework */,
+				9154944ACC1A44809E8EC7CC /* Foundation.framework */,
+				0EB9777751A3466592F6C252 /* MobileCoreServices.framework */,
+				3CC86C50C4EE4E9D97826989 /* PixateFreestyle.framework */,
+				37B7894794C04F96A305FCCE /* QuartzCore.framework */,
+				BB047774BB3046A6ADBD9C58 /* Security.framework */,
+				FF4AC99101B64942BCB22677 /* SystemConfiguration.framework */,
+				A4D591D2173F4B81B3A59AB2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA034C9A08634F77ABE88752 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				338ECC1A33044EB4B21D3B09 /* AFNetworking */,
+				04D6D6CCDA7B482585F821ED /* PixateFreestyle */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5680C8757D649DE8BC15945 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8DB908080BC46669F2CB06D /* libPods-PixateFreestyleBug.a */,
+				8A58C88FD8BF4B75B1AA4D8A /* libPods-PixateFreestyleBug-AFNetworking.a */,
+				BBAD10F743274730B7BD21DC /* libPods-PixateFreestyleBug-PixateFreestyle.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD150C9127804AA484D23601 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC3C35A02DA49ADB9F6D0A0 /* Pods-PixateFreestyleBug-AFNetworking.xcconfig */,
+				3D63E2CD13AE4DE78CF520F5 /* Pods-PixateFreestyleBug-AFNetworking-Private.xcconfig */,
+				CAE8CECB3EAD4A0C99402219 /* Pods-PixateFreestyleBug-AFNetworking-dummy.m */,
+				AF280402B4BC4C29AB4EEAAF /* Pods-PixateFreestyleBug-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		E26B2AFA63E3494482506089 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				07057B40688E445185BFF921 /* AFHTTPRequestOperation.h */,
+				6844AC17DB824F619C9DCA71 /* AFHTTPRequestOperation.m */,
+				7D28E1CC780C49399D8A9139 /* AFHTTPRequestOperationManager.h */,
+				456E95DD18F04897B29919B1 /* AFHTTPRequestOperationManager.m */,
+				6BF005F587064687BCE6CDB5 /* AFURLConnectionOperation.h */,
+				5F1E1E3404644FFB91D51A3B /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		FD922B770CCD469C89B0A55E /* Pods-PixateFreestyleBug */ = {
+			isa = PBXGroup;
+			children = (
+				CBBEBD300D6C4E3DA3E238B9 /* Pods-PixateFreestyleBug.xcconfig */,
+				3C56F5B8FC8E452F835A8B02 /* Pods-PixateFreestyleBug-acknowledgements.markdown */,
+				0599E05923D44F478007D13B /* Pods-PixateFreestyleBug-acknowledgements.plist */,
+				6C4AE67AEAD642BF8D704B8F /* Pods-PixateFreestyleBug-dummy.m */,
+				9BEB7510925647508D92FC89 /* Pods-PixateFreestyleBug-environment.h */,
+				1FEB183F78134FEE870407F6 /* Pods-PixateFreestyleBug-resources.sh */,
+			);
+			name = "Pods-PixateFreestyleBug";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3710B8F8276D451C9CF679BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B54C193F0B4DFBB6661B1D /* DDASLLogger.h in Headers */,
+				1CADE14C12AB4640B0F44D01 /* DDAbstractDatabaseLogger.h in Headers */,
+				72A26BC1CCB5487FAD336D31 /* DDFileLogger.h in Headers */,
+				3F64EACC7E704C4D8E82F014 /* DDLog.h in Headers */,
+				61B5F10AB46E47D1A6B07705 /* DDTTYLogger.h in Headers */,
+				04EFA63CEBA5420A984FA4C2 /* NSArray+Reverse.h in Headers */,
+				CA2AE60D15F34C6F928F5DC9 /* NSDictionary+PXCSSEncoding.h in Headers */,
+				59C279B6872E44AF8141AF8D /* NSDictionary+PXObject.h in Headers */,
+				EE6FC30AFAF24730B5F8BE7B /* NSMutableArray+QueueAdditions.h in Headers */,
+				7DEA25A160074460B5A5EFBA /* NSMutableArray+StackAdditions.h in Headers */,
+				E086FA7796FC4B29971F8E99 /* NSMutableDictionary+PXObject.h in Headers */,
+				5EDDF3F5F7114570BEB4EE5E /* NSObject+PXClass.h in Headers */,
+				19449E9406A6455CBB17D681 /* NSObject+PXStyling.h in Headers */,
+				4074A65D0752443B93061FAF /* NSObject+PXSubclass.h in Headers */,
+				D6C3AFD6EF5449E980B3D2AD /* NSScanner+PXFloat.h in Headers */,
+				73FDD5490F764B19A62E700E /* PXAdjacentSiblingCombinator.h in Headers */,
+				403DB11E571E47C9898B872E /* PXAnimationInfo.h in Headers */,
+				0F9902562A744B529A490CC2 /* PXAnimationPropertyHandler.h in Headers */,
+				EDD3B8352EB24CFF9724D5F7 /* PXAnimationStyler.h in Headers */,
+				50A919B01E5D45CE84C4A3E4 /* PXArc.h in Headers */,
+				F0B749B8EADD47CB9CEE799C /* PXArrowRectangle.h in Headers */,
+				BBBF9F7A059B43E9ACC81358 /* PXAttributeSelector.h in Headers */,
+				05E284E3388F45AA97A45908 /* PXAttributeSelectorOperator.h in Headers */,
+				B8BC4B978ED641828FBF0556 /* PXAttributedTextStyler.h in Headers */,
+				05418395E0714104A2CE8B6F /* PXBarMetricsAdjustmentStyler.h in Headers */,
+				0F9676DA33094C20AF1473D8 /* PXBarShadowStyler.h in Headers */,
+				6AE7D30663494AE2B3F9AC8F /* PXBorderInfo.h in Headers */,
+				50CC2B541D0A48CAA44C766B /* PXBorderStyler.h in Headers */,
+				643548F360BA456887CD66AF /* PXBoundable.h in Headers */,
+				55BADB7365FA4A4AB58A0416 /* PXBoxModel.h in Headers */,
+				06BD9CECCC8746E3B7BB33E8 /* PXBoxShadowStyler.h in Headers */,
+				3B23DF91D7BB4824A8380766 /* PXCacheManager.h in Headers */,
+				BFC9961608174F6EA423B1BB /* PXCharacterMatcher.h in Headers */,
+				8CF03A550C044D09AD273E5D /* PXChildCombinator.h in Headers */,
+				39340C3C64A74545827F0306 /* PXCircle.h in Headers */,
+				F659D45903F94998A8E245EE /* PXClassSelector.h in Headers */,
+				E31A954933E347ED87C983BB /* PXClassUtils.h in Headers */,
+				851172A0EAC04E15B90D6D1A /* PXColorStyler.h in Headers */,
+				CA4F2F5131A34175A19E7481 /* PXCombinator.h in Headers */,
+				AF95550BD0BC4D7FB982F17A /* PXCombinatorBase.h in Headers */,
+				FA2FE602E92946E5A4DB7C02 /* PXDeclaration.h in Headers */,
+				81DC6DEA85DA423AB6085FDD /* PXDeclarationContainer.h in Headers */,
+				C5FF6F8403F44A358DDADE44 /* PXDelegateLogger.h in Headers */,
+				22B46CB72ADE46A5A10CF746 /* PXDescendantCombinator.h in Headers */,
+				4E66A66D18A344FEA579D898 /* PXDimension.h in Headers */,
+				BDBB3633584945F08905A227 /* PXEllipse.h in Headers */,
+				CC4A661EA0794E1F8720F4A4 /* PXEllipticalArc.h in Headers */,
+				829FC281171246249F56E6B7 /* PXFileFunctionLogFormatter.h in Headers */,
+				9C45F051777F47C0899353E3 /* PXFileUtils.h in Headers */,
+				D84AA8C92DAE4FC8ACA4E501 /* PXFileWatcher.h in Headers */,
+				D31604FBF6C748A98DD3115A /* PXFillStyler.h in Headers */,
+				64DB8BCFD3DB4633B675C751 /* PXFontEntry.h in Headers */,
+				65776340A65443358FD3379D /* PXFontInfo.h in Headers */,
+				205B8FB54F6441638CBDF10E /* PXFontRegistry.h in Headers */,
+				E4299410627F4C339AA02F27 /* PXFontStyler.h in Headers */,
+				0A0B681114834AEA8340B4A5 /* PXForceLoadCGCategories.h in Headers */,
+				987454A58090497789BEFDA3 /* PXForceLoadControls.h in Headers */,
+				E7EDCFE4746E4D5DA1B3B670 /* PXForceLoadPixateCategories.h in Headers */,
+				C0968E3A424D4E90AA3D61C6 /* PXForceLoadStylingCategories.h in Headers */,
+				FF8CCCFA138B40ECA6DD2BF0 /* PXForceLoadVirtualCategories.h in Headers */,
+				5600B8AD4DED49C08F14CEF2 /* PXGenericStyler.h in Headers */,
+				8D937D8207FD4A6BBA8B4049 /* PXGestalt.h in Headers */,
+				1771AE03FEBB405AB437734D /* PXGradient.h in Headers */,
+				9EAFEF4B61BA404F8D11C443 /* PXGraphics.h in Headers */,
+				E38A08A262D14A0B9EE5E8A2 /* PXIdSelector.h in Headers */,
+				E0A6F4DD8BF44F488FD8C651 /* PXImagePaint.h in Headers */,
+				99EF47AB88334798A48C7E0D /* PXImageUtils.h in Headers */,
+				765B013827A9444FB1AF2B1A /* PXInsetStyler.h in Headers */,
+				64DBEFCB08FF48CFAABA4C72 /* PXKeyframe.h in Headers */,
+				BA6DC9C48E264A31B7175D34 /* PXKeyframeAnimation.h in Headers */,
+				6D8FB6F37DF8493EB24EC1D4 /* PXKeyframeBlock.h in Headers */,
+				9A916F4FEBF440238CADD892 /* PXLayoutStyler.h in Headers */,
+				36A1E9A2A62E4F6BAD4273D5 /* PXLexemeCreator.h in Headers */,
+				8B8D6E98018749CC912CD245 /* PXLine.h in Headers */,
+				DA54F6CA30F446B1BD1A5C2B /* PXLinearGradient.h in Headers */,
+				B7417530D7EE4D13A876B2EA /* PXLog.h in Headers */,
+				ECF382E1FA2D437AA47F5BD3 /* PXLoggingUtils.h in Headers */,
+				57C3BAB7DA4C4575B7252A9B /* PXMKAnnotationContainerView.h in Headers */,
+				B921F8A99D6548ECB0969B95 /* PXMKAnnotationView.h in Headers */,
+				7580B418899849CF87827AB2 /* PXMKMapView.h in Headers */,
+				3F1E93A26E934F069FF14601 /* PXMPVolumeView.h in Headers */,
+				CEEE626AE7134416B551C474 /* PXMacrosCommon.h in Headers */,
+				8514604FED494D8EA59BFA02 /* PXMath.h in Headers */,
+				B07FFFFCBC174BD9A88D3AD7 /* PXMediaExpression.h in Headers */,
+				068F8FD7C4CD471D8D49AC5F /* PXMediaExpressionGroup.h in Headers */,
+				CE8AADCFAD95440AAB7628DF /* PXMediaGroup.h in Headers */,
+				C5B4BB9E75494A0D8B4992E7 /* PXNamedMediaExpression.h in Headers */,
+				97EB04B15DC94CFB802B386F /* PXNonScalingStroke.h in Headers */,
+				B8BBB13B963D4536B97495B8 /* PXNotPseudoClass.h in Headers */,
+				28A8DF5AEA9540D5B26D237B /* PXNotificationInfo.h in Headers */,
+				5A5F0202DB394FBAA03DC656 /* PXNotificationManager.h in Headers */,
+				B6BC3B6945A44138A9C3A607 /* PXNumberMatcher.h in Headers */,
+				E335F17DA06C462899B96088 /* PXOffsets.h in Headers */,
+				4DFD51C227C84C49A0C3FD60 /* PXOpacityStyler.h in Headers */,
+				7EB4A3AEB0324F4D98CD9FB9 /* PXPaint.h in Headers */,
+				FB4AC5EFDBCF4870A18B8C1A /* PXPaintGroup.h in Headers */,
+				AD827F1324E44992A809D260 /* PXPaintStyler.h in Headers */,
+				F4C09967474042CDAFAF25A8 /* PXPaintable.h in Headers */,
+				B4A18C6E241B4E24BFF0CB3A /* PXPath.h in Headers */,
+				73AB603B612E4A8CBA599AC2 /* PXPatternMatcher.h in Headers */,
+				91A8198C58734D1FA6E9179D /* PXPie.h in Headers */,
+				9208403D068B4F688E8362E3 /* PXPolygon.h in Headers */,
+				952012A1CF8749979628B089 /* PXProxy.h in Headers */,
+				5425DB228AC747B5AFFF9AC2 /* PXPseudoClassFunction.h in Headers */,
+				0048373A67184209986CC1F7 /* PXPseudoClassPredicate.h in Headers */,
+				5836C11551214EDC82597DE1 /* PXPseudoClassSelector.h in Headers */,
+				ADA714A99FE448DAA2B5EF5F /* PXRadialGradient.h in Headers */,
+				4A902DB0349C41AAA2C30860 /* PXRectangle.h in Headers */,
+				91BA8D555CD94B57ACAFF5E1 /* PXRenderable.h in Headers */,
+				FA2DCDA71C9E40C789E9D38C /* PXRuleSet.h in Headers */,
+				83164F2B0487458AA3841E4D /* PXRuntimeUtils.h in Headers */,
+				BD74C92E304B4B178020FEA8 /* PXSVGLoader.h in Headers */,
+				D476FA4CCDF64D4EA1B92B11 /* PXSelector.h in Headers */,
+				BFE329DCDB1D40DD9DFFA9F6 /* PXShadow.h in Headers */,
+				51E679D430D84D578B8C3739 /* PXShadowGroup.h in Headers */,
+				85FA40055D684136AAFBB8CE /* PXShadowPaint.h in Headers */,
+				092A6F71C9C44C3397FAC6B6 /* PXShape.h in Headers */,
+				CE240C4033E7427D9C498ACA /* PXShapeDocument.h in Headers */,
+				CDA744A52EF343A8818C831A /* PXShapeGroup.h in Headers */,
+				56FC4D3E967F432FA1228640 /* PXShapeStyler.h in Headers */,
+				92BDD66EA83A485EABF87C43 /* PXShapeView.h in Headers */,
+				C5C2057A2C6A488DBEE620E4 /* PXSiblingCombinator.h in Headers */,
+				F0179AFA4AE842ACBDDE1A22 /* PXSolidPaint.h in Headers */,
+				1ECF4CFF19F2446596154BA6 /* PXSourceEmitter.h in Headers */,
+				2EFC94EE144E473EA97C1F78 /* PXSourceWriter.h in Headers */,
+				88CC9CE865A14D1B95924F84 /* PXSpecificity.h in Headers */,
+				016A33AB289047F183314AC8 /* PXStroke.h in Headers */,
+				CBD216CC9FC749808C1F7BF4 /* PXStrokeGroup.h in Headers */,
+				AD5610B892044FF3BE1F567A /* PXStrokeRenderer.h in Headers */,
+				5073F595757F4243979344D2 /* PXStrokeStroke.h in Headers */,
+				E857F2427B5A4C559C836AC0 /* PXStyleInfo.h in Headers */,
+				04851AC783D4482D8FC6DB55 /* PXStyleTreeInfo.h in Headers */,
+				BFCC9CA9A81F42419A45707D /* PXStyleUtils.h in Headers */,
+				2A6B17B66B56470F9D1DD6FF /* PXStyleable.h in Headers */,
+				A2F19F85990744AD8903AECA /* PXStyler.h in Headers */,
+				7F31D579EDA541F6A7093456 /* PXStylerBase.h in Headers */,
+				B060E33DFD884DBA8D989522 /* PXStylerContext.h in Headers */,
+				044D61A6C61E449B96F48B8D /* PXStylesheet-Private.h in Headers */,
+				9C62FB538A5C4948A6519C19 /* PXStylesheet.h in Headers */,
+				3605520DFF9F47ED80D93B96 /* PXStylesheetLexeme.h in Headers */,
+				5ABDA3C3D1B14C40A48A2A92 /* PXStylesheetLexer.h in Headers */,
+				06D93D0ED63E44E3A6FC3BB0 /* PXStylesheetParser.h in Headers */,
+				6C9CAEC656924AA6BC2DBCC2 /* PXStylesheetTokenType.h in Headers */,
+				F1008304F9174436A602B6FE /* PXStylingMacros.h in Headers */,
+				EB61B34F73FE4073853774D4 /* PXText.h in Headers */,
+				EFAAB6898A684774B3718A54 /* PXTextContentStyler.h in Headers */,
+				14715E14EEF84410B11AE23C /* PXTextShadowStyler.h in Headers */,
+				30804EA86EF745659648E845 /* PXTitaniumMacros.h in Headers */,
+				635FA5BABA5A432DBDFCE545 /* PXTransformLexer.h in Headers */,
+				4A1C72C241304AFDAEF65134 /* PXTransformParser.h in Headers */,
+				E89FF95AE721448CBE19CF3F /* PXTransformStyler.h in Headers */,
+				818AD901A5784CBBA54A84B0 /* PXTransformTokenType.h in Headers */,
+				C997DBE2586F4822B13E4219 /* PXTransitionRuleSetInfo.h in Headers */,
+				C2192589F3204347ADA49659 /* PXTransitionStyler.h in Headers */,
+				2D65EB8FD807404EB78EDE45 /* PXTypeSelector.h in Headers */,
+				DA9A6466926F4F46832EA511 /* PXUIActionSheet.h in Headers */,
+				4D7A6C2D6D3049CAB026EF73 /* PXUIActivityIndicatorView.h in Headers */,
+				C9CDFCEBA56643C59C09C0F4 /* PXUIButton.h in Headers */,
+				CC561296C21D4DC6BFD98413 /* PXUICollectionView.h in Headers */,
+				53D1241C9561435884BE9FAC /* PXUICollectionViewCell.h in Headers */,
+				3F6C51E0C9B845A6A082B54E /* PXUICollectionViewDelegate.h in Headers */,
+				205539DC949342F0AE0AAFA7 /* PXUIDatePicker.h in Headers */,
+				80BEF900815D4BDBBA6CF27C /* PXUIImageView.h in Headers */,
+				0478D6A4D361468EA22FAE0D /* PXUILabel.h in Headers */,
+				F49315EF8CB44BD18FFF20DD /* PXUILayoutContainerView.h in Headers */,
+				C63FCE8F1A734B449A667C1C /* PXUINavigationBar.h in Headers */,
+				3E701B10A3D24672826F8967 /* PXUIPageControl.h in Headers */,
+				8F06BD8DD9824FFD86BBFC6C /* PXUIPickerView.h in Headers */,
+				CF7DFFB6EA7D47678B3875EA /* PXUIPickerViewDelegate.h in Headers */,
+				012A596F12BC42F6A98D8752 /* PXUIProgressView.h in Headers */,
+				C59C255D510C431BB6398B24 /* PXUIRefreshControl.h in Headers */,
+				7EEB9F5DBC67490695E4938A /* PXUIScrollView.h in Headers */,
+				6FEB4784FF04484281C98B15 /* PXUISearchBar.h in Headers */,
+				36F80C818BDF49B2A0AB82A5 /* PXUISegmentedControl.h in Headers */,
+				6FF655780DF843B2A0883C50 /* PXUISlider.h in Headers */,
+				64EEE87BE2CA470ABB5D1F53 /* PXUIStepper.h in Headers */,
+				55FFB4924337418FA03CAF98 /* PXUISwitch.h in Headers */,
+				8B0A389B3CBE44E4ACAA122F /* PXUITabBar.h in Headers */,
+				8ACF52FEF3FE4A298DF3BBFF /* PXUITableView.h in Headers */,
+				A103FBF7F2FA45E394FD6921 /* PXUITableViewCell.h in Headers */,
+				49840EE8DE3C40818D2E0B9C /* PXUITableViewCellContentView.h in Headers */,
+				FB68FEB6F3FF418FABB65766 /* PXUITableViewDelegate.h in Headers */,
+				0362216444F94495A8DAFB46 /* PXUITableViewHeaderFooterView.h in Headers */,
+				18388404745B4B3BB445E20C /* PXUITextField.h in Headers */,
+				4894D43255384D20B6D71369 /* PXUITextView.h in Headers */,
+				653C0E7E992549BC92D028E0 /* PXUIToolbar.h in Headers */,
+				047D1EA4904A4664AA56C194 /* PXUIView.h in Headers */,
+				FC0991272A064E0CB35F6DBF /* PXUIWebView.h in Headers */,
+				54BC51D755254FCAB299F335 /* PXUIWindow.h in Headers */,
+				2F2998725D564C009561C0CC /* PXURLMatcher.h in Headers */,
+				3B21EB94E6AD41D78510E6F5 /* PXUtils.h in Headers */,
+				0C0AB70327274B37B3A10F75 /* PXValue.h in Headers */,
+				4ED2E13B4F694DBA9CFC891D /* PXValueParser.h in Headers */,
+				AAEC6180279343C097E709E9 /* PXVector.h in Headers */,
+				6F80C9939B0B4E03A94C920E /* PXViewUtils.h in Headers */,
+				301492AFB2B64E24A5E0AFF8 /* PXVirtualControl.h in Headers */,
+				EBE2259D8860477FABA28555 /* PXVirtualStyleableControl.h in Headers */,
+				0E31E40B2E024E76AA9848DC /* PXWeakWrapper.h in Headers */,
+				174D62F374354FD696C58453 /* PXWordMatcher.h in Headers */,
+				94F52F19493441C6A76FDA86 /* PixateFreestyle-Private.h in Headers */,
+				41E5F63DF47349ABACAD6363 /* PixateFreestyle.h in Headers */,
+				862F94118207475380E9EDBA /* PixateFreestyleConfiguration.h in Headers */,
+				A80EE7F74EDE4B0EA3654998 /* UIBarButtonItem+PXStyling-Private.h in Headers */,
+				DCF771EDC4414348A6EC6E6A /* UIBarButtonItem+PXStyling.h in Headers */,
+				3512418D6A1D4AFBB9097FD2 /* UIBarItem+PXStyling.h in Headers */,
+				C2568BD2F5D048428F65B813 /* UIColor+PXColors.h in Headers */,
+				BEE0962CC84E4BD9B7E2DC36 /* UINavigationItem+PXStyling.h in Headers */,
+				D8E4C1EB25D3433D85D7A5F9 /* UITabBarItem+PXStyling.h in Headers */,
+				71C6F146EA73414CA5373AC4 /* UIView+PXStyling-Private.h in Headers */,
+				9D387719166D4A33A13D00EF /* UIView+PXStyling.h in Headers */,
+				2091A93DAD3340AC94AD0EF4 /* Version.h in Headers */,
+				5AEB6C0B1FF545E091DC0E3F /* objc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED37A5CB1066439ABDB81FE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2256CC0923443C7AD528337 /* AFHTTPRequestOperation.h in Headers */,
+				B3B339111A644E0F8180DF15 /* AFHTTPRequestOperationManager.h in Headers */,
+				CDD8BFCD5E644591A38E8876 /* AFHTTPSessionManager.h in Headers */,
+				D7ABA88EDFA341E896BBBF5F /* AFNetworkActivityIndicatorManager.h in Headers */,
+				8C63E770DD5D4EB7B20C1096 /* AFNetworkReachabilityManager.h in Headers */,
+				4705E34BEAFD4700A97787C1 /* AFSecurityPolicy.h in Headers */,
+				B62B59265C1F4DA0AD8382EE /* AFURLConnectionOperation.h in Headers */,
+				7A03731CA5554F87927E52DF /* AFURLRequestSerialization.h in Headers */,
+				A61826FF93734FAD8080F7BE /* AFURLResponseSerialization.h in Headers */,
+				3960D2893A3B41E2A03C16AA /* AFURLSessionManager.h in Headers */,
+				0BDF6F9067C74ED885009CC5 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				A8E897131B3F42DEBAD00EDF /* UIAlertView+AFNetworking.h in Headers */,
+				6E5C7981560A407DA0BA1CA2 /* UIButton+AFNetworking.h in Headers */,
+				19518D8F594248FC8E83C048 /* UIImageView+AFNetworking.h in Headers */,
+				15D12C724A504D37830B2F5A /* UIKit+AFNetworking.h in Headers */,
+				EC3E4C95339042F0BE4C09B3 /* UIProgressView+AFNetworking.h in Headers */,
+				A9058D7C9DE04EF8BBBC6268 /* UIRefreshControl+AFNetworking.h in Headers */,
+				643B933D4A91429E843CF084 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8ADB7B5C0EFF41CAA3CC3C5A /* Pods-PixateFreestyleBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409A0E8A898A4863B00A4A80 /* Build configuration list for PBXNativeTarget "Pods-PixateFreestyleBug" */;
+			buildPhases = (
+				0E1C737924834B8E99E641E9 /* Sources */,
+				C5341797620046CEBE25209F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40AA63B57DCE440DA1067BF8 /* PBXTargetDependency */,
+				188FEFC2A8264F68917EC42C /* PBXTargetDependency */,
+			);
+			name = "Pods-PixateFreestyleBug";
+			productName = "Pods-PixateFreestyleBug";
+			productReference = E8DB908080BC46669F2CB06D /* libPods-PixateFreestyleBug.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8FEC9E60DB8C4DC5A06145D9 /* Pods-PixateFreestyleBug-PixateFreestyle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00975CCB25A34D94BDEDF308 /* Build configuration list for PBXNativeTarget "Pods-PixateFreestyleBug-PixateFreestyle" */;
+			buildPhases = (
+				9F0D5821653243479DF08CBA /* Sources */,
+				D24881FB2F084A2FB04068FC /* Frameworks */,
+				3710B8F8276D451C9CF679BF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PixateFreestyleBug-PixateFreestyle";
+			productName = "Pods-PixateFreestyleBug-PixateFreestyle";
+			productReference = BBAD10F743274730B7BD21DC /* libPods-PixateFreestyleBug-PixateFreestyle.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9A976723D7A843CC87C83FDE /* Pods-PixateFreestyleBug-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8353B5A71442CC923B0203 /* Build configuration list for PBXNativeTarget "Pods-PixateFreestyleBug-AFNetworking" */;
+			buildPhases = (
+				6337ACCB2324453F86F3BAA4 /* Sources */,
+				957D1B8E74344A4F9F0155F8 /* Frameworks */,
+				ED37A5CB1066439ABDB81FE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PixateFreestyleBug-AFNetworking";
+			productName = "Pods-PixateFreestyleBug-AFNetworking";
+			productReference = 8A58C88FD8BF4B75B1AA4D8A /* libPods-PixateFreestyleBug-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4961036F9974F2AA6AE8033 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 81DD1DB2AAC641168B4F9B1C /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CA5E3597E61469899AA15F5;
+			productRefGroup = D5680C8757D649DE8BC15945 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ADB7B5C0EFF41CAA3CC3C5A /* Pods-PixateFreestyleBug */,
+				9A976723D7A843CC87C83FDE /* Pods-PixateFreestyleBug-AFNetworking */,
+				8FEC9E60DB8C4DC5A06145D9 /* Pods-PixateFreestyleBug-PixateFreestyle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E1C737924834B8E99E641E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6703CB708B4B4D7287FD54B8 /* Pods-PixateFreestyleBug-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6337ACCB2324453F86F3BAA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0201B7048E404B38A45DE982 /* AFHTTPRequestOperation.m in Sources */,
+				1EEF4A1EF75C4306A424E271 /* AFHTTPRequestOperationManager.m in Sources */,
+				2DD4319E4F164297AAFE38EE /* AFHTTPSessionManager.m in Sources */,
+				552A472DF7514888A35B211D /* AFNetworkActivityIndicatorManager.m in Sources */,
+				BC02AD52EF4A413780504DBB /* AFNetworkReachabilityManager.m in Sources */,
+				AAAE253DFE994240B5B5BF66 /* AFSecurityPolicy.m in Sources */,
+				2CFAC17F9B994D40854F7BBC /* AFURLConnectionOperation.m in Sources */,
+				D4CCA331B9D1421D98682B92 /* AFURLRequestSerialization.m in Sources */,
+				892A85F958654917AF49D9E5 /* AFURLResponseSerialization.m in Sources */,
+				F3C04814FBD443228707EA92 /* AFURLSessionManager.m in Sources */,
+				70EB6093F9EC4B2AA25DFF95 /* Pods-PixateFreestyleBug-AFNetworking-dummy.m in Sources */,
+				463AB933211C4A6089F24F01 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				34AA7F99332F40E2961A2D76 /* UIAlertView+AFNetworking.m in Sources */,
+				330C2E789BF9465597A5A044 /* UIButton+AFNetworking.m in Sources */,
+				23B5A720336449169412269C /* UIImageView+AFNetworking.m in Sources */,
+				EB2385199E8344A39AE21347 /* UIProgressView+AFNetworking.m in Sources */,
+				FF0FC43490DA417BBA7534A8 /* UIRefreshControl+AFNetworking.m in Sources */,
+				ABF66CE83C244964BF00D175 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F0D5821653243479DF08CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74C757F0781415EAE59B456 /* Pods-PixateFreestyleBug-PixateFreestyle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188FEFC2A8264F68917EC42C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FEC9E60DB8C4DC5A06145D9 /* Pods-PixateFreestyleBug-PixateFreestyle */;
+			targetProxy = BA83629F72854F9892A6DDD3 /* PBXContainerItemProxy */;
+		};
+		40AA63B57DCE440DA1067BF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A976723D7A843CC87C83FDE /* Pods-PixateFreestyleBug-AFNetworking */;
+			targetProxy = 7FFEE6DEDB65470B86E257AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0E1FBED5BCA34FCFB7334DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		2183F21C21BA43B08026095B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D63E2CD13AE4DE78CF520F5 /* Pods-PixateFreestyleBug-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-PixateFreestyleBug-AFNetworking-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22A86F3107E3456BACB9D044 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30097707074A4B2C9A832C5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBEBD300D6C4E3DA3E238B9 /* Pods-PixateFreestyleBug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AD685B416AA47AE93910957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBBEBD300D6C4E3DA3E238B9 /* Pods-PixateFreestyleBug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4FAE5CFB7DC94ACEB5FB10C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E5E89D2B1840089B927379 /* Pods-PixateFreestyleBug-PixateFreestyle-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-PixateFreestyleBug-PixateFreestyle-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D965AAD390F443D95E3E141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D63E2CD13AE4DE78CF520F5 /* Pods-PixateFreestyleBug-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-PixateFreestyleBug-AFNetworking-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EFB303302B2C472D8C2DA927 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96E5E89D2B1840089B927379 /* Pods-PixateFreestyleBug-PixateFreestyle-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-PixateFreestyleBug-PixateFreestyle-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00975CCB25A34D94BDEDF308 /* Build configuration list for PBXNativeTarget "Pods-PixateFreestyleBug-PixateFreestyle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB303302B2C472D8C2DA927 /* Debug */,
+				4FAE5CFB7DC94ACEB5FB10C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C8353B5A71442CC923B0203 /* Build configuration list for PBXNativeTarget "Pods-PixateFreestyleBug-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D965AAD390F443D95E3E141 /* Debug */,
+				2183F21C21BA43B08026095B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409A0E8A898A4863B00A4A80 /* Build configuration list for PBXNativeTarget "Pods-PixateFreestyleBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD685B416AA47AE93910957 /* Debug */,
+				30097707074A4B2C9A832C5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81DD1DB2AAC641168B4F9B1C /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1FBED5BCA34FCFB7334DCC /* Debug */,
+				22A86F3107E3456BACB9D044 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4961036F9974F2AA6AE8033 /* Project object */;
+}

@@ -1,0 +1,11 @@
+target "PixateFreestyleBug" do
+
+pod 'AFNetworking/UIKit', '~> 2.3.1'
+pod 'PixateFreestyle', '~> 2.1.4'
+
+end
+
+target "PixateFreestyleBugTests" do
+
+end
+

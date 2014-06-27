@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ETViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4vi-LB-sdW">
+                                <rect key="frame" x="140" y="112" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="WkV-ui-LEe"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="rounded-image"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="K1o-9I-AiQ">
+                                <rect key="frame" x="140" y="264" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="lqi-zF-U21"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="rounded-image"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vxS-tl-Fpg">
+                                <rect key="frame" x="140" y="416" width="40" height="40"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="QBE-Nv-QSE"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="styleClass" value="rounded-image"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vxS-tl-Fpg" firstAttribute="centerX" secondItem="4vi-LB-sdW" secondAttribute="centerX" id="1KC-02-vbz"/>
+                            <constraint firstItem="vxS-tl-Fpg" firstAttribute="trailing" secondItem="4vi-LB-sdW" secondAttribute="trailing" id="51b-Nm-0HK"/>
+                            <constraint firstItem="vxS-tl-Fpg" firstAttribute="width" secondItem="4vi-LB-sdW" secondAttribute="height" multiplier="1:1" id="8ad-yC-n8k"/>
+                            <constraint firstItem="vxS-tl-Fpg" firstAttribute="top" secondItem="K1o-9I-AiQ" secondAttribute="bottom" constant="112" id="Bng-gW-xEo"/>
+                            <constraint firstItem="4vi-LB-sdW" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="92" id="CJF-SX-EQt"/>
+                            <constraint firstItem="vxS-tl-Fpg" firstAttribute="leading" secondItem="K1o-9I-AiQ" secondAttribute="leading" id="KkH-3g-FRz"/>
+                            <constraint firstItem="K1o-9I-AiQ" firstAttribute="top" secondItem="4vi-LB-sdW" secondAttribute="bottom" constant="112" id="Qda-vx-ocA"/>
+                            <constraint firstItem="vxS-tl-Fpg" firstAttribute="height" secondItem="K1o-9I-AiQ" secondAttribute="height" id="R5r-Hu-Sxm"/>
+                            <constraint firstItem="vxS-tl-Fpg" firstAttribute="width" secondItem="4vi-LB-sdW" secondAttribute="width" id="SIA-yg-BY6"/>
+                            <constraint firstItem="vxS-tl-Fpg" firstAttribute="leading" secondItem="4vi-LB-sdW" secondAttribute="leading" id="Sjl-gL-ySu"/>
+                            <constraint firstItem="vxS-tl-Fpg" firstAttribute="height" secondItem="4vi-LB-sdW" secondAttribute="height" id="UZa-f5-uhU"/>
+                            <constraint firstItem="vxS-tl-Fpg" firstAttribute="width" secondItem="K1o-9I-AiQ" secondAttribute="height" multiplier="1:1" id="WCA-z7-8nL"/>
+                            <constraint firstAttribute="centerX" secondItem="K1o-9I-AiQ" secondAttribute="centerX" id="c7U-ox-z3g"/>
+                            <constraint firstAttribute="centerX" secondItem="4vi-LB-sdW" secondAttribute="centerX" id="gba-1X-p6D"/>
+                            <constraint firstItem="vxS-tl-Fpg" firstAttribute="trailing" secondItem="K1o-9I-AiQ" secondAttribute="trailing" id="hu4-hJ-IEw"/>
+                            <constraint firstItem="vxS-tl-Fpg" firstAttribute="centerX" secondItem="K1o-9I-AiQ" secondAttribute="centerX" id="lAd-yg-s55"/>
+                            <constraint firstAttribute="centerX" secondItem="vxS-tl-Fpg" secondAttribute="centerX" id="msi-mQ-Pcp"/>
+                            <constraint firstItem="vxS-tl-Fpg" firstAttribute="width" secondItem="K1o-9I-AiQ" secondAttribute="width" id="ovv-1B-io4"/>
+                            <constraint firstItem="K1o-9I-AiQ" firstAttribute="top" secondItem="4vi-LB-sdW" secondAttribute="bottom" constant="112" id="rTL-Ke-Oy9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="imageViews" destination="4vi-LB-sdW" id="lFG-eb-eXc"/>
+                        <outletCollection property="imageViews" destination="K1o-9I-AiQ" id="GdJ-pS-hFC"/>
+                        <outletCollection property="imageViews" destination="vxS-tl-Fpg" id="a7v-mj-Zt2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

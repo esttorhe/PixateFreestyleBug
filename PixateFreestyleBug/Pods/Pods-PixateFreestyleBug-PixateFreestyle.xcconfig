@@ -1,0 +1,2 @@
+PODS_PIXATEFREESTYLEBUG_PIXATEFREESTYLE_FRAMEWORK_SEARCH_PATHS = "$(PODS_ROOT)/PixateFreestyle"
+PODS_PIXATEFREESTYLEBUG_PIXATEFREESTYLE_OTHER_LDFLAGS = -framework CoreGraphics -framework CoreText -framework PixateFreestyle -framework QuartzCore -framework UIKit
